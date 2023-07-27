@@ -52,7 +52,7 @@ export function Navbar() {
             <Link to="/">
               <img
                 className="coffeeroasters-logoh"
-                src="src/assets/shared/desktop/logo.svg"
+                src="/assets/shared/desktop/logo.svg"
                 alt="coffee bean icon"
               />
             </Link>
