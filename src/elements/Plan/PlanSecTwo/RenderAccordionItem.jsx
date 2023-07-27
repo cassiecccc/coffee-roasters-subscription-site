@@ -24,7 +24,7 @@ export function RenderAccordionItem({
     >
       <div className="accordion-header" onClick={toggleActive}>
         <h1>{option.title}</h1>
-        <img src="src/assets/plan/desktop/icon-arrow.svg" alt="" />
+        <img src="/assets/plan/desktop/icon-arrow.svg" alt="" />
       </div>
       <div className="accordion-body">
         <label className="label" htmlFor={option.optionOne.title}>
