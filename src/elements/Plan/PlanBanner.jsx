@@ -55,12 +55,12 @@ export function PlanBanner() {
             : isLG || isMD
             ? {
                 backgroundImage:
-                  "url(/assets/about/tablet/image-hero-blackcup.jpg)",
+                  "url(/assets/plan/tablet/image-hero-blackcup.jpg)",
               }
             : isSM || isXS
             ? {
                 backgroundImage:
-                  "url(/assets/about/mobile/image-hero-blackcup.jpg)",
+                  "url(/assets/plan/mobile/image-hero-blackcup.jpg)",
               }
             : null
         }

@@ -339,7 +339,6 @@ footer .social-menu svg:hover path {
   height: 600px;
   margin: 0 5rem;
   border-radius: 6px;
-  background-image: url("src/assets/home/desktop/image-hero-coffeepress.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -733,6 +732,7 @@ footer .social-menu svg:hover path {
   height: 28.125rem;
   margin-bottom: 10rem;
   background: url("src/assets/plan/desktop/image-hero-blackcup.jpg");
+  background-size: cover;
   border-radius: 6px;
 }
 .plan-banner .plan-banner-wrapper {
