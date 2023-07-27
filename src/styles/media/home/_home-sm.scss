@@ -1,0 +1,267 @@
+@media screen and (max-width: 576px) {
+  .home-banner {
+    max-width: 36rem;
+    height: 40rem;
+    margin: 0 2rem;
+    border-radius: 6px;
+    background-image: url("src/assets/home/mobile/image-hero-coffeepress.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .home-banner-wrapper {
+      background: none;
+      padding-top: 7rem;
+      padding-left: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .home-banner-title {
+        @include HeaderFontOne;
+        font-size: 3.5rem;
+        color: $background-color;
+        background: none;
+        text-align: center;
+      }
+
+      .home-banner-body {
+        @include BodyFont;
+        line-height: 30px;
+        background: none;
+        color: $background-color;
+        margin-top: 2rem;
+        width: 22rem;
+        text-align: center;
+      }
+      .button-primary {
+        @include MainButtonDefault;
+        width: 16rem;
+        margin-top: 3rem;
+      }
+    }
+  }
+
+  //home section one - our collection
+
+  .home-sec-one {
+    max-width: 48rem;
+    margin: 0 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+
+    .collection-title {
+      padding-top: 8rem;
+      text-align: center;
+      @include TitleFont;
+      font-size: 4rem;
+      background: -webkit-linear-gradient(
+        $secondary-font-color,
+        $background-color
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      z-index: 0;
+    }
+
+    .home-collection {
+      background: none;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      grid-template-columns: none;
+      margin-top: 0;
+      justify-items: center;
+      text-align: left;
+      gap: 3rem;
+      padding-bottom: 12rem;
+    }
+    .home-collection-card {
+      box-sizing: border-box;
+      max-width: 43rem;
+      background: none;
+      z-index: 1;
+      padding-bottom: 0rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+
+      .home-collection-image {
+        background: none;
+        max-width: 15.9rem;
+      }
+
+      .home-collection-words-wrapper {
+        margin-top: -2rem;
+      }
+      .home-collection-title {
+        @include HeaderFontFour;
+        color: $secondary-color;
+        margin-top: 3rem;
+        text-align: center;
+      }
+      .home-collection-body {
+        @include BodyFont;
+        font-size: 15px;
+        color: $secondary-color;
+        margin-top: 1.5rem;
+        width: 18rem;
+        text-align: center;
+      }
+    }
+  }
+
+  .home-sec-two {
+    max-width: 36rem;
+    margin: auto;
+    margin: 0 2rem;
+    position: relative;
+
+    .home-why {
+      height: 100vh;
+      text-align: center;
+      padding-top: 4rem;
+      background-color: $secondary-color;
+      border-radius: 6px;
+
+      .home-why-title {
+        @include HeaderFontTwo;
+        font-size: 2rem;
+        color: $background-color;
+      }
+      .home-why-body {
+        @include BodyFont;
+        color: $background-color;
+        font-size: 18px;
+        opacity: 0.7;
+        margin: 1.5rem 2rem 0 2rem;
+      }
+    }
+    .home-why-card-wrapper {
+      display: grid;
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-columns: none;
+      gap: 2rem;
+      justify-content: center;
+      margin: 0;
+      margin: -37rem 2rem 0 2rem;
+
+      .home-why-card {
+        max-height: 0;
+        max-height: 40rem;
+        max-width: 0;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-between;
+        align-items: center;
+        background-color: $primary-color;
+        border-radius: 6px;
+
+        #truck-image {
+          margin-top: 5rem;
+        }
+        .home-why-card-image {
+          width: 100%;
+          max-width: 6.25rem;
+          margin-right: 0;
+          margin-bottom: 3rem;
+          margin-top: 3rem;
+        }
+      }
+
+      .home-why-card-title {
+        @include HeaderFontThree;
+        color: $background-color;
+        margin-top: -1.5rem;
+        text-align: center;
+      }
+
+      .home-why-card-body {
+        @include BodyFont;
+        font-size: 18px;
+        line-height: 30px;
+        color: $background-color;
+        text-align: center;
+        padding: 2rem;
+      }
+    }
+  }
+
+  .home-sec-three {
+    padding-top: 8rem;
+    max-width: 36rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .home-how-title {
+      @include HeaderFontFour;
+      color: $secondary-font-color;
+      padding-bottom: 0;
+      text-align: center;
+    }
+
+    .home-how-wrapper {
+      display: grid;
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-columns: none;
+      max-width: 36rem;
+      #third-line {
+        border: none;
+      }
+
+      .home-how-card {
+        max-width: 0;
+        max-width: 85%;
+        margin: auto;
+        border: none;
+
+        &::before {
+          display: none;
+          content: "";
+          top: -1rem;
+          height: 25px;
+          width: 25px;
+          position: absolute;
+          border-radius: 50%;
+          border: 2px solid $primary-color;
+          background-color: $background-color;
+        }
+
+        .home-how-number {
+          @include HeaderFontOne;
+          color: $accent-color;
+          text-align: center;
+          padding-top: 1rem;
+        }
+
+        .home-how-step {
+          @include HeaderFontThree;
+          color: $secondary-color;
+          padding-top: 2.5rem;
+          max-width: 0;
+          max-width: 36rem;
+          text-align: center;
+          margin: auto;
+        }
+        .home-how-description {
+          @include BodyFont;
+          color: $secondary-color;
+          padding-top: 2rem;
+          text-align: center;
+          max-width: 35rem;
+        }
+      }
+    }
+    .button-home-how {
+      @include MainButtonDefault;
+      width: 16rem;
+      margin-top: 6rem;
+      margin-bottom: 10rem;
+      padding: 1rem;
+    }
+  }
+}

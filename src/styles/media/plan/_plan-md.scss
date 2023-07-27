@@ -1,0 +1,292 @@
+@media screen and (max-width: 768px) {
+  .plan-banner {
+    max-width: 48rem;
+    margin: 0 2.5rem;
+    height: 28.125rem;
+    margin-bottom: 10rem;
+    background: url("src/assets/plan/tablet/image-hero-blackcup.jpg");
+    border-radius: 6px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    .plan-banner-wrapper {
+      max-width: 33rem;
+      padding-top: 5rem;
+      padding-left: 3rem;
+      .plan-banner-title {
+        @include HeaderFontOne;
+        font-size: 3rem;
+        color: $background-color;
+      }
+
+      .plan-banner-body {
+        @include BodyFont;
+        font-size: 15px;
+        color: $background-color;
+        padding-top: 2rem;
+        max-width: 24rem;
+      }
+    }
+  }
+
+  //plan how it works
+  .plan-sec-one {
+    max-width: 48rem;
+    margin: 0;
+    height: 40.8rem;
+    border-radius: 6px;
+    background: url("src/assets/plan/tablet/bg-steps.png");
+
+    .plan-how-wrapper {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      align-items: start;
+      padding-left: 2rem;
+      padding-top: 5rem;
+      #third-line {
+        border: none;
+      }
+
+      .plan-how-card {
+        max-width: auto;
+        border-top: 2px solid $accent-color;
+        padding-top: 5rem;
+        position: relative;
+
+        &::before {
+          content: "";
+          top: -1rem;
+          height: 25px;
+          width: 25px;
+          position: absolute;
+          border-radius: 50%;
+          border: 2px solid $primary-color;
+          background-color: $secondary-color;
+        }
+
+        .plan-how-number {
+          @include HeaderFontOne;
+          color: $accent-color;
+        }
+
+        .plan-how-step {
+          @include HeaderFontThree;
+          font-size: 1.75rem;
+          color: $background-color;
+          padding-top: 2.5rem;
+          max-width: 14rem;
+        }
+        .plan-how-description {
+          @include BodyFont;
+          font-size: 15px;
+          color: $background-color;
+          padding-top: 2rem;
+          max-width: 14rem;
+        }
+      }
+    }
+  }
+
+  //plan sec two how
+  .plan-sec-two {
+    max-width: 55rem;
+    margin: 0 5rem;
+    margin-top: 10rem;
+    margin-bottom: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+
+    .plan-menu {
+      display: none;
+      cursor: pointer;
+
+      ul {
+        #menu-first {
+          padding-top: 0;
+        }
+
+        #menu-fifth {
+          border-bottom: none;
+        }
+
+        li {
+          @include HeaderFontFour;
+          list-style: none;
+          padding-bottom: 1.5rem;
+          padding-top: 1.5rem;
+          border-bottom: 1px solid #83888f;
+
+          &:hover {
+            opacity: 0.5;
+          }
+
+          .li-number {
+            padding-right: 2rem;
+            opacity: 0.3;
+            color: $secondary-color;
+          }
+
+          .li-body {
+            opacity: 0.5;
+            color: $secondary-color;
+            padding-right: -1rem;
+          }
+        }
+      }
+    }
+  }
+
+  .plan-sec-two-right {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+
+    .accordion-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 4rem;
+      cursor: pointer;
+
+      h1 {
+        @include HeaderFontTwo;
+        color: #83888f;
+      }
+
+      img {
+        transform: rotate(180deg);
+        transition: 0.2s;
+      }
+    }
+  }
+
+  .accordion-body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: -1rem;
+    margin-bottom: 5rem;
+
+    .label {
+      // padding: 2rem 2rem 4rem 2rem;
+      border-radius: 8px;
+      background-color: #f4f1eb;
+      cursor: pointer;
+      height: 15.625rem;
+      &:hover {
+        background-color: $accent-color;
+        transition: 0.2s;
+      }
+
+      .radio {
+        display: none;
+      }
+
+      .radio:checked + .label-wrapper {
+        background-color: $primary-color;
+        .label-title {
+          color: $background-color;
+        }
+        .label-description {
+          color: $background-color;
+        }
+      }
+
+      .label-wrapper {
+        height: 100%;
+        border-radius: 8px;
+        padding: 2rem 2rem 4rem 2rem;
+      }
+
+      .label-title {
+        @include HeaderFontFour;
+        color: $secondary-color;
+      }
+      .label-description {
+        @include BodyFont;
+        color: $secondary-color;
+        padding-top: 1rem;
+      }
+    }
+  }
+
+  .button-primary-activated {
+    @include MainButtonDefault;
+    margin-top: 3rem;
+    align-self: flex-end;
+  }
+
+  .button-primary-activated:disabled {
+    @include MainButtonDefault;
+    background-color: $button-disabled;
+    margin-top: 3rem;
+    align-self: flex-end;
+  }
+
+  //order summary
+
+  .order-summary-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    .order-summary {
+      background-color: $secondary-color;
+      padding: 2.5rem 3rem 3rem 3rem;
+      border-radius: 6px;
+
+      .order-summary-title {
+        @include BodyFont;
+        color: $secondary-font-color;
+        text-transform: uppercase;
+      }
+
+      .order-summary-body {
+        @include HeaderFontFour;
+        color: $background-color;
+        padding-top: 1rem;
+      }
+
+      .order-selection {
+        color: $primary-color;
+      }
+    }
+  }
+
+  //plan menu activated styles
+
+  .plan-sec-two-left {
+    .plan-menu {
+      .li-selected {
+        .li-number {
+          opacity: 1;
+          color: $primary-color;
+        }
+        .li-body {
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  //card hidden class
+  .hidden {
+    .accordion-header {
+      img {
+        transform: rotate(0);
+        transition: 0.2s;
+      }
+    }
+    .accordion-body {
+      display: none;
+    }
+  }
+
+  .disabled {
+    .accordion-body {
+      display: none;
+    }
+  }
+}

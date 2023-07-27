@@ -1,0 +1,236 @@
+@media screen and (max-width: 768px) {
+  .home-banner {
+    max-width: 48rem;
+    height: 500px;
+    margin: 0 2.5rem;
+    border-radius: 6px;
+    background-image: url("src/assets/home/tablet/image-hero-coffeepress.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .home-banner-wrapper {
+      background: none;
+      padding-top: 6rem;
+      padding-left: 3rem;
+
+      .home-banner-title {
+        @include HeaderFontOne;
+        font-size: 3rem;
+        line-height: 3rem;
+        color: $background-color;
+        background: none;
+      }
+
+      .home-banner-body {
+        @include BodyFont;
+        font-size: 15px;
+        line-height: 25px;
+        background: none;
+        color: $background-color;
+        margin-top: 2rem;
+        width: 24.8rem;
+      }
+      .button-primary {
+        @include MainButtonDefault;
+        width: 13.56rem;
+        margin-top: 3rem;
+        font-size: 18px;
+        padding: 1rem;
+      }
+    }
+  }
+
+  //home section one - our collection
+
+  .home-sec-one {
+    max-width: 48rem;
+    margin: 0 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+
+    .collection-title {
+      padding-top: 8rem;
+      text-align: center;
+      @include TitleFont;
+      font-size: 6rem;
+      background: -webkit-linear-gradient(
+        $secondary-font-color,
+        $background-color
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      z-index: 0;
+    }
+
+    .home-collection {
+      background: none;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      grid-template-columns: none;
+      margin-top: -3.9rem;
+      justify-items: center;
+      text-align: left;
+      gap: 3rem;
+      padding-bottom: 12rem;
+    }
+    .home-collection-card {
+      box-sizing: border-box;
+      max-width: 43rem;
+      background: none;
+      z-index: 1;
+      padding-bottom: 0rem;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-between;
+
+      .home-collection-image {
+        background: none;
+        max-width: 15.9rem;
+      }
+
+      .home-collection-words-wrapper {
+        margin-top: -2rem;
+      }
+      .home-collection-title {
+        @include HeaderFontFour;
+        color: $secondary-color;
+        margin-top: 3rem;
+      }
+      .home-collection-body {
+        @include BodyFont;
+        font-size: 15px;
+        color: $secondary-color;
+        margin-top: 1.5rem;
+        width: 18rem;
+      }
+    }
+  }
+
+  .home-sec-two {
+    max-width: 48rem;
+    margin: auto;
+    margin: 0 2.5rem;
+
+    .home-why {
+      height: 36rem;
+      text-align: center;
+      padding-top: 4rem;
+      background-color: $secondary-color;
+      border-radius: 6px;
+
+      .home-why-title {
+        @include HeaderFontTwo;
+        font-size: 2rem;
+        color: $background-color;
+      }
+      .home-why-body {
+        @include BodyFont;
+        color: $background-color;
+        font-size: 15px;
+        opacity: 0.7;
+        margin-top: 1.5rem;
+      }
+    }
+    .home-why-card-wrapper {
+      display: grid;
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-columns: none;
+      margin-top: -19rem;
+      gap: 1.5rem;
+
+      .home-why-card {
+        max-width: 0;
+        max-width: 100%;
+        max-height: 0;
+        max-height: 11.25rem;
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        justify-content: space-between;
+        align-items: center;
+        background-color: $primary-color;
+        border-radius: 6px;
+        padding: 2.5rem 3.5rem;
+
+        #truck-image {
+          margin-top: 0.5rem;
+        }
+        .home-why-card-image {
+          width: 15%;
+          height: auto;
+          margin-right: 3.5rem;
+        }
+      }
+
+      .home-why-card-title {
+        @include HeaderFontFour;
+        font-size: 3vw;
+        line-height: 1.5rem;
+        color: $background-color;
+        margin-top: -1.5rem;
+      }
+
+      .home-why-card-body {
+        @include BodyFont;
+        font-size: 2.1vw;
+        color: $background-color;
+        padding-top: 1rem;
+      }
+    }
+  }
+
+  .home-sec-three {
+    padding-top: 10rem;
+    max-width: 43rem;
+
+    margin: auto;
+    .home-how-title {
+      @include HeaderFontFour;
+      color: $secondary-font-color;
+      padding-bottom: 4rem;
+    }
+
+    .home-how-wrapper {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      align-items: top;
+      #third-line {
+        border: none;
+      }
+
+      .home-how-card {
+        max-width: 17.8rem;
+
+        .home-how-number {
+          @include HeaderFontOne;
+          font-size: 3.75rem;
+          color: $accent-color;
+        }
+
+        .home-how-step {
+          @include HeaderFontThree;
+          font-size: 1.7rem;
+          color: $secondary-color;
+          padding-top: 2.5rem;
+          max-width: 12rem;
+        }
+        .home-how-description {
+          @include BodyFont;
+          font-size: 14px;
+          color: $secondary-color;
+          padding-top: 2rem;
+          max-width: 12.3rem;
+        }
+      }
+    }
+    .button-home-how {
+      @include MainButtonDefault;
+      width: 13rem;
+      margin-top: 3rem;
+      font-size: 18px;
+      padding: 1rem;
+    }
+  }
+}

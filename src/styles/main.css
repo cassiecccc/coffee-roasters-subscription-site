@@ -1,0 +1,4244 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Fraunces:wght@900&display=swap");
+nav {
+  max-width: 90rem;
+  margin: auto;
+  padding: 2.5rem 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+nav ul li {
+  margin-left: 2rem;
+  list-style: none;
+  cursor: pointer;
+  font-family: "Barlow", sans-serif;
+  font-size: 0.75rem;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+nav ul li a {
+  text-decoration: none;
+  color: hsl(215, 5%, 54%);
+  font-weight: 700;
+  letter-spacing: 0.92px;
+}
+nav ul li a:hover {
+  color: hsl(216, 17%, 21%);
+  transition: 0.1s;
+}
+
+@media screen and (max-width: 992px) {
+  nav {
+    max-width: 60rem;
+    margin: auto;
+    padding: 2.5rem 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+  nav ul li {
+    margin-left: 2rem;
+    list-style: none;
+    cursor: pointer;
+    font-family: "Barlow", sans-serif;
+    font-size: 0.75rem;
+    line-height: 15px;
+    text-transform: uppercase;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: hsl(215, 5%, 54%);
+    font-weight: 700;
+    letter-spacing: 0.92px;
+  }
+  nav ul li a:hover {
+    color: hsl(216, 17%, 21%);
+    transition: 0.1s;
+  }
+}
+@media screen and (max-width: 768px) {
+  nav {
+    max-width: 48rem;
+    margin: auto;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+  nav ul li {
+    margin-left: 2rem;
+    list-style: none;
+    cursor: pointer;
+    font-family: "Barlow", sans-serif;
+    font-size: 0.75rem;
+    line-height: 15px;
+    text-transform: uppercase;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: hsl(215, 5%, 54%);
+    font-weight: 700;
+    letter-spacing: 0.92px;
+  }
+  nav ul li a:hover {
+    color: hsl(216, 17%, 21%);
+    transition: 0.1s;
+  }
+}
+@media screen and (max-width: 576px) {
+  nav {
+    margin: auto;
+    padding: 2rem;
+    display: block;
+  }
+  .nav-mobile {
+    display: flex;
+    align-items: center;
+  }
+  .nav-mobile-menu {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(hsl(43, 78%, 98%), hsl(43, 78%, 98%), hsla(43, 78%, 98%, 0.505), hsla(43, 78%, 98%, 0.505));
+  }
+  .nav-mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    margin-right: 2rem;
+  }
+  .nav-mobile-menu ul li {
+    cursor: pointer;
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    line-height: 40px;
+    padding: 1.5rem 0;
+  }
+  .nav-mobile-menu ul li a {
+    color: hsl(216, 17%, 21%);
+    text-transform: none;
+  }
+  .nav-mobile-menu-hidden {
+    display: none;
+  }
+}
+@media screen and (max-width: 374px) {
+  nav {
+    margin: auto;
+    padding: 2rem 1rem;
+    display: block;
+  }
+  .nav-mobile {
+    display: flex;
+    align-items: center;
+  }
+  .nav-mobile-menu {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(hsl(43, 78%, 98%), hsl(43, 78%, 98%), hsla(43, 78%, 98%, 0.505), hsla(43, 78%, 98%, 0.505));
+  }
+  .nav-mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    margin-right: 2rem;
+  }
+  .nav-mobile-menu ul li {
+    cursor: pointer;
+    font-family: "Fraunces", serif;
+    font-size: 1.5rem;
+    line-height: 32px;
+    padding: 1.5rem 0;
+    z-index: 999;
+  }
+  .nav-mobile-menu ul li a {
+    color: hsl(216, 17%, 21%);
+    text-transform: none;
+  }
+  .nav-mobile-menu-hidden {
+    display: none;
+  }
+}
+footer {
+  width: 100%;
+  background-color: hsl(216, 17%, 21%);
+}
+footer .footer-wrapper {
+  max-width: 80rem;
+  margin: auto;
+  padding: 2.5rem 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+footer ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+footer ul li {
+  margin-left: 2rem;
+  list-style: none;
+  cursor: pointer;
+  font-family: "Barlow", sans-serif;
+  font-size: 0.75rem;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+footer ul li a {
+  text-decoration: none;
+  color: hsl(215, 5%, 54%);
+  font-weight: 700;
+  letter-spacing: 0.92px;
+}
+footer ul li a:hover {
+  color: hsl(43, 78%, 98%);
+  transition: 0.1s;
+}
+footer .footer-left {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 0.2;
+}
+footer .social-menu svg:hover path {
+  fill: hsl(25, 94%, 86%);
+  transition: 0.1s;
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    max-width: 100vw;
+    height: 16.875rem;
+    background-color: hsl(216, 17%, 21%);
+  }
+  footer .footer-wrapper {
+    max-width: 80rem;
+    height: 16.875rem;
+    margin: auto;
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  footer ul li {
+    margin-left: 2rem;
+    list-style: none;
+    cursor: pointer;
+    font-family: "Barlow", sans-serif;
+    font-size: 0.75rem;
+    line-height: 15px;
+    text-transform: uppercase;
+  }
+  footer ul li a {
+    text-decoration: none;
+    color: hsl(215, 5%, 54%);
+    font-weight: 700;
+    letter-spacing: 0.92px;
+  }
+  footer ul li a:hover {
+    color: hsl(43, 78%, 98%);
+    transition: 0.1s;
+  }
+  footer .footer-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .social-menu {
+    margin-top: 4rem;
+  }
+  footer .social-menu svg:hover path {
+    fill: hsl(25, 94%, 86%);
+    transition: 0.1s;
+  }
+}
+@media screen and (max-width: 576px) {
+  footer {
+    max-width: 100vw;
+    height: 25rem;
+    background-color: hsl(216, 17%, 21%);
+  }
+  footer .footer-wrapper {
+    max-width: 80rem;
+    height: 100%;
+    margin: auto;
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+  }
+  footer ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+  }
+  footer ul li {
+    margin-left: 0;
+    padding: 0.75rem 0;
+    list-style: none;
+    cursor: pointer;
+    font-family: "Barlow", sans-serif;
+    font-size: 0.75rem;
+    line-height: 15px;
+    text-transform: uppercase;
+  }
+  footer ul li a {
+    text-decoration: none;
+    color: hsl(215, 5%, 54%);
+    font-weight: 700;
+    letter-spacing: 0.92px;
+  }
+  footer ul li a:hover {
+    color: hsl(43, 78%, 98%);
+    transition: 0.1s;
+  }
+  footer .footer-left {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .social-menu {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+  }
+  footer .social-menu li {
+    margin: 1rem;
+  }
+  footer .social-menu svg:hover path {
+    fill: hsl(25, 94%, 86%);
+    transition: 0.1s;
+  }
+}
+.home-banner {
+  max-width: 90rem;
+  height: 600px;
+  margin: 0 5rem;
+  border-radius: 6px;
+  background-image: url("src/assets/home/desktop/image-hero-coffeepress.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.home-banner .home-banner-wrapper {
+  background: none;
+  padding-top: 7rem;
+  padding-left: 5rem;
+}
+.home-banner .home-banner-wrapper .home-banner-title {
+  font-family: "Fraunces", serif;
+  font-size: 4.5rem;
+  letter-spacing: -0.5px;
+  line-height: 72px;
+  color: hsl(43, 78%, 98%);
+  background: none;
+}
+.home-banner .home-banner-wrapper .home-banner-body {
+  font-family: "Barlow", sans-serif;
+  font-size: 1rem;
+  line-height: 26px;
+  font-weight: 400;
+  width: 27.8rem;
+  background: none;
+  color: hsl(43, 78%, 98%);
+  margin-top: 2rem;
+  opacity: 0.8;
+}
+.home-banner .home-banner-wrapper .button-primary {
+  font-family: "Fraunces", serif;
+  font-size: 1.25rem;
+  line-height: 25px;
+  background-color: hsl(179, 81%, 29%);
+  color: hsl(43, 78%, 98%);
+  border: none;
+  padding: 1.25rem 2.25rem;
+  border-radius: 6px;
+  margin-top: 4rem;
+  cursor: pointer;
+}
+.home-banner .home-banner-wrapper .button-primary:hover {
+  background-color: hsl(179, 55%, 61%);
+  transition: 0.2s;
+}
+
+.home-sec-one {
+  max-width: 90rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 5rem;
+}
+.home-sec-one .collection-title {
+  padding-top: 12rem;
+  text-align: center;
+  font-family: "Fraunces", serif;
+  font-size: 9.375rem;
+  line-height: 144px;
+  text-transform: lowercase;
+  background: -webkit-linear-gradient(hsl(215, 5%, 54%), hsl(43, 78%, 98%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 0;
+}
+.home-sec-one .home-collection {
+  background: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  align-content: center;
+  text-align: center;
+  margin-top: -3.3rem;
+  padding: 0 5rem;
+}
+.home-sec-one .home-collection-card {
+  max-width: 16rem;
+  background: none;
+  z-index: 1;
+  padding-bottom: 12rem;
+}
+.home-sec-one .home-collection-card .home-collection-image {
+  background: none;
+  max-width: 15rem;
+  margin-left: 1.5rem;
+}
+.home-sec-one .home-collection-card .home-collection-title {
+  font-family: "Fraunces", serif;
+  font-size: 1.5rem;
+  line-height: 32px;
+  color: hsl(216, 17%, 21%);
+  margin-top: 4rem;
+}
+.home-sec-one .home-collection-card .home-collection-body {
+  font-family: "Barlow", sans-serif;
+  font-size: 1rem;
+  line-height: 26px;
+  font-weight: 400;
+  color: hsl(216, 17%, 21%);
+  margin-top: 1.5rem;
+}
+
+.home-sec-two {
+  max-width: 90em;
+  margin: auto;
+  margin: 0 5rem;
+}
+.home-sec-two .home-why {
+  height: 36rem;
+  text-align: center;
+  padding-top: 7rem;
+  background-color: hsl(216, 17%, 21%);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home-sec-two .home-why .home-why-title {
+  font-family: "Fraunces", serif;
+  font-size: 2.5rem;
+  line-height: 48px;
+  color: hsl(43, 78%, 98%);
+}
+.home-sec-two .home-why .home-why-body {
+  font-family: "Barlow", sans-serif;
+  font-size: 1rem;
+  line-height: 26px;
+  font-weight: 400;
+  color: hsl(43, 78%, 98%);
+  opacity: 0.7;
+  margin-top: 2rem;
+  max-width: 33.75rem;
+}
+.home-sec-two .home-why-card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  justify-items: center;
+  margin: -14rem 5rem 0 5rem;
+}
+.home-sec-two .home-why-card-wrapper .home-why-card {
+  text-align: center;
+  background-color: hsl(179, 81%, 29%);
+  border-radius: 6px;
+  padding: 4rem 2.5rem;
+  max-width: 21rem;
+  max-height: 26rem;
+}
+.home-sec-two .home-why-card-wrapper .home-why-card #truck-image {
+  margin-top: 1.3rem;
+}
+.home-sec-two .home-why-card-wrapper .home-why-card .home-why-card-image {
+  width: 25%;
+  height: auto;
+}
+.home-sec-two .home-why-card-wrapper .home-why-card-title {
+  font-family: "Fraunces", serif;
+  font-size: 1.5rem;
+  line-height: 32px;
+  color: hsl(43, 78%, 98%);
+  padding-top: 3rem;
+}
+.home-sec-two .home-why-card-wrapper .home-why-card-body {
+  font-family: "Barlow", sans-serif;
+  font-size: 1rem;
+  line-height: 26px;
+  font-weight: 400;
+  color: hsl(43, 78%, 98%);
+  padding-top: 2rem;
+}
+
+.home-sec-three {
+  padding-top: 13rem;
+  max-width: 65rem;
+  margin: auto;
+}
+.home-sec-three .home-how-title {
+  font-family: "Fraunces", serif;
+  font-size: 1.5rem;
+  line-height: 32px;
+  color: hsl(215, 5%, 54%);
+  padding-bottom: 6rem;
+}
+.home-sec-three .home-how-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: top;
+}
+.home-sec-three .home-how-wrapper #third-line {
+  border: none;
+}
+.home-sec-three .home-how-wrapper .home-how-card {
+  max-width: 24rem;
+  border-top: 2px solid hsl(25, 94%, 86%);
+  padding-top: 5rem;
+  position: relative;
+}
+.home-sec-three .home-how-wrapper .home-how-card::before {
+  content: "";
+  top: -1rem;
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid hsl(179, 81%, 29%);
+  background-color: hsl(43, 78%, 98%);
+}
+.home-sec-three .home-how-wrapper .home-how-card .home-how-number {
+  font-family: "Fraunces", serif;
+  font-size: 4.5rem;
+  letter-spacing: -0.5px;
+  line-height: 72px;
+  color: hsl(25, 94%, 86%);
+}
+.home-sec-three .home-how-wrapper .home-how-card .home-how-step {
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  line-height: 40px;
+  color: hsl(216, 17%, 21%);
+  padding-top: 2.5rem;
+  max-width: 16rem;
+}
+.home-sec-three .home-how-wrapper .home-how-card .home-how-description {
+  font-family: "Barlow", sans-serif;
+  font-size: 1rem;
+  line-height: 26px;
+  font-weight: 400;
+  color: hsl(216, 17%, 21%);
+  padding-top: 3rem;
+  max-width: 17.81rem;
+}
+.home-sec-three .button-home-how {
+  font-family: "Fraunces", serif;
+  font-size: 1.25rem;
+  line-height: 25px;
+  background-color: hsl(179, 81%, 29%);
+  color: hsl(43, 78%, 98%);
+  border: none;
+  padding: 1.25rem 2.25rem;
+  border-radius: 6px;
+  margin-top: 4rem;
+  cursor: pointer;
+  margin-bottom: 15rem;
+}
+.home-sec-three .button-home-how:hover {
+  background-color: hsl(179, 55%, 61%);
+  transition: 0.2s;
+}
+
+.about-banner {
+  background: url("src/assets/about/desktop/image-hero-whitecup.jpg");
+  max-width: 90rem;
+  margin: 0 5rem;
+  height: 450px;
+  border-radius: 6px;
+}
+.about-banner .about-banner-wrapper {
+  padding-top: 8rem;
+  padding-left: 5rem;
+  max-width: 32rem;
+}
+.about-banner .about-banner-wrapper .about-banner-title {
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  line-height: 40px;
+  color: hsl(43, 78%, 98%);
+}
+.about-banner .about-banner-wrapper .about-banner-body {
+  font-family: "Barlow", sans-serif;
+  font-size: 1rem;
+  line-height: 26px;
+  font-weight: 400;
+  color: hsl(43, 78%, 98%);
+  margin-top: 2rem;
+  opacity: 0.8;
+}
+
+.about-commit {
+  padding-top: 10rem;
+  max-width: 90rem;
+  margin: 0 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  gap: 2rem;
+}
+.about-commit .about-commit-left {
+  border-radius: 6px;
+  background: url("src/assets/about/desktop/image-commitment.jpg");
+  background-size: cover;
+  width: 445px;
+  height: 520px;
+}
+.about-commit .about-commit-right {
+  max-width: 33.7rem;
+}
+.about-commit .about-commit-right .about-commit-title {
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  line-height: 40px;
+  color: hsl(216, 17%, 21%);
+}
+.about-commit .about-commit-right .about-commit-body {
+  font-family: "Barlow", sans-serif;
+  font-size: 1rem;
+  line-height: 26px;
+  font-weight: 400;
+  color: hsl(215, 5%, 54%);
+  margin-top: 2rem;
+}
+
+.about-quality {
+  max-width: 90rem;
+  height: 29.6rem;
+  margin: 0 5rem;
+  margin-top: 15rem;
+  background: url("src/assets/about/desktop/bg-quality.png");
+  background-repeat: no-repeat;
+}
+.about-quality .about-quality-wrapper {
+  display: grid;
+  grid-template-columns: 1.07fr 1fr;
+  gap: 5rem;
+  padding: 0 5rem;
+  align-items: center;
+  justify-items: center;
+}
+.about-quality .about-quality-wrapper .about-quality-left .about-quality-title {
+  font-family: "Fraunces", serif;
+  font-size: 2.5rem;
+  line-height: 48px;
+  color: hsl(43, 78%, 98%);
+}
+.about-quality .about-quality-wrapper .about-quality-left .about-quality-body {
+  font-family: "Barlow", sans-serif;
+  font-size: 1rem;
+  line-height: 26px;
+  font-weight: 400;
+  color: hsl(43, 78%, 98%);
+  padding-top: 2rem;
+}
+.about-quality .about-quality-wrapper .about-quality-right {
+  margin-top: -5rem;
+  border-radius: 6px;
+  background: url("src/assets/about/desktop/image-quality.jpg");
+  background-size: cover;
+  width: 27.81rem;
+  height: 29.625rem;
+}
+
+.about-hq {
+  padding-top: 10rem;
+  padding-bottom: 15rem;
+  max-width: 90rem;
+  margin: 0 10rem;
+}
+.about-hq .about-hq-title {
+  font-family: "Fraunces", serif;
+  font-size: 1.5rem;
+  line-height: 32px;
+  color: hsl(215, 5%, 54%);
+  padding-bottom: 5rem;
+}
+.about-hq .about-hq-card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8rem;
+  align-items: start;
+}
+.about-hq .about-hq-card-wrapper .about-hq-card {
+  max-width: 17.81rem;
+}
+.about-hq .about-hq-card-wrapper .about-hq-card .about-hq-card-title {
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  line-height: 40px;
+  color: hsl(216, 17%, 21%);
+  padding-top: 2rem;
+}
+.about-hq .about-hq-card-wrapper .about-hq-card .about-hq-card-body {
+  font-family: "Barlow", sans-serif;
+  font-size: 1rem;
+  line-height: 26px;
+  font-weight: 400;
+  color: hsl(216, 17%, 21%);
+  padding-top: 2rem;
+}
+
+.plan-banner {
+  max-width: 90rem;
+  margin: 0 5rem;
+  height: 28.125rem;
+  margin-bottom: 10rem;
+  background: url("src/assets/plan/desktop/image-hero-blackcup.jpg");
+  border-radius: 6px;
+}
+.plan-banner .plan-banner-wrapper {
+  max-width: 33rem;
+  padding-top: 7rem;
+  padding-left: 5rem;
+}
+.plan-banner .plan-banner-wrapper .plan-banner-title {
+  font-family: "Fraunces", serif;
+  font-size: 4.5rem;
+  letter-spacing: -0.5px;
+  line-height: 72px;
+  color: hsl(43, 78%, 98%);
+}
+.plan-banner .plan-banner-wrapper .plan-banner-body {
+  font-family: "Barlow", sans-serif;
+  font-size: 1rem;
+  line-height: 26px;
+  font-weight: 400;
+  color: hsl(43, 78%, 98%);
+  padding-top: 2rem;
+  opacity: 0.8;
+}
+
+.plan-sec-one {
+  max-width: 90rem;
+  margin: 0 5rem;
+  height: 40.8rem;
+  border-radius: 6px;
+  background: url("src/assets/plan/desktop/bg-steps.png");
+}
+.plan-sec-one .plan-how-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: start;
+  padding-left: 5rem;
+  padding-top: 6rem;
+}
+.plan-sec-one .plan-how-wrapper #third-line {
+  border: none;
+}
+.plan-sec-one .plan-how-wrapper .plan-how-card {
+  max-width: auto;
+  border-top: 2px solid hsl(25, 94%, 86%);
+  padding-top: 5rem;
+  position: relative;
+}
+.plan-sec-one .plan-how-wrapper .plan-how-card::before {
+  content: "";
+  top: -1rem;
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid hsl(179, 81%, 29%);
+  background-color: hsl(216, 17%, 21%);
+}
+.plan-sec-one .plan-how-wrapper .plan-how-card .plan-how-number {
+  font-family: "Fraunces", serif;
+  font-size: 4.5rem;
+  letter-spacing: -0.5px;
+  line-height: 72px;
+  color: hsl(25, 94%, 86%);
+}
+.plan-sec-one .plan-how-wrapper .plan-how-card .plan-how-step {
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  line-height: 40px;
+  color: hsl(43, 78%, 98%);
+  padding-top: 2.5rem;
+  max-width: 16rem;
+}
+.plan-sec-one .plan-how-wrapper .plan-how-card .plan-how-description {
+  font-family: "Barlow", sans-serif;
+  font-size: 1rem;
+  line-height: 26px;
+  font-weight: 400;
+  color: hsl(43, 78%, 98%);
+  padding-top: 3rem;
+  max-width: 17.81rem;
+}
+
+.plan-sec-two {
+  max-width: 90rem;
+  margin: 0 9rem;
+  margin-top: 10rem;
+  margin-bottom: 12rem;
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+  gap: 8rem;
+  justify-content: center;
+}
+.plan-sec-two .plan-menu {
+  cursor: pointer;
+}
+.plan-sec-two .plan-menu ul #menu-first {
+  padding-top: 0;
+}
+.plan-sec-two .plan-menu ul #menu-fifth {
+  border-bottom: none;
+}
+.plan-sec-two .plan-menu ul li {
+  font-family: "Fraunces", serif;
+  font-size: 1.5rem;
+  line-height: 32px;
+  list-style: none;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  border-bottom: 1px solid #83888f;
+}
+.plan-sec-two .plan-menu ul li:hover {
+  opacity: 0.5;
+}
+.plan-sec-two .plan-menu ul li .li-number {
+  padding-right: 2rem;
+  opacity: 0.3;
+  color: hsl(216, 17%, 21%);
+}
+.plan-sec-two .plan-menu ul li .li-body {
+  opacity: 0.5;
+  color: hsl(216, 17%, 21%);
+  padding-right: -1rem;
+}
+
+.plan-sec-two-right {
+  display: flex;
+  flex-direction: column;
+}
+.plan-sec-two-right .accordion-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 4rem;
+  cursor: pointer;
+}
+.plan-sec-two-right .accordion-header h1 {
+  font-family: "Fraunces", serif;
+  font-size: 2.5rem;
+  line-height: 48px;
+  color: #83888f;
+}
+.plan-sec-two-right .accordion-header img {
+  transform: rotate(180deg);
+  transition: 0.2s;
+}
+
+.accordion-body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: -1rem;
+  margin-bottom: 5rem;
+}
+.accordion-body .label {
+  border-radius: 8px;
+  background-color: #f4f1eb;
+  cursor: pointer;
+  height: 15.625rem;
+}
+.accordion-body .label:hover {
+  background-color: hsl(25, 94%, 86%);
+  transition: 0.2s;
+}
+.accordion-body .label .radio {
+  display: none;
+}
+.accordion-body .label .radio:checked + .label-wrapper {
+  background-color: hsl(179, 81%, 29%);
+}
+.accordion-body .label .radio:checked + .label-wrapper .label-title {
+  color: hsl(43, 78%, 98%);
+}
+.accordion-body .label .radio:checked + .label-wrapper .label-description {
+  color: hsl(43, 78%, 98%);
+}
+.accordion-body .label .label-wrapper {
+  height: 100%;
+  border-radius: 8px;
+  padding: 2rem 2rem 4rem 2rem;
+}
+.accordion-body .label .label-title {
+  font-family: "Fraunces", serif;
+  font-size: 1.5rem;
+  line-height: 32px;
+  color: hsl(216, 17%, 21%);
+}
+.accordion-body .label .label-description {
+  font-family: "Barlow", sans-serif;
+  font-size: 1rem;
+  line-height: 26px;
+  font-weight: 400;
+  color: hsl(216, 17%, 21%);
+  padding-top: 1rem;
+}
+
+.button-primary-activated {
+  font-family: "Fraunces", serif;
+  font-size: 1.25rem;
+  line-height: 25px;
+  background-color: hsl(179, 81%, 29%);
+  color: hsl(43, 78%, 98%);
+  border: none;
+  padding: 1.25rem 2.25rem;
+  border-radius: 6px;
+  margin-top: 4rem;
+  cursor: pointer;
+  margin-top: 3rem;
+  align-self: flex-end;
+}
+.button-primary-activated:hover {
+  background-color: hsl(179, 55%, 61%);
+  transition: 0.2s;
+}
+
+.button-primary-activated:disabled {
+  font-family: "Fraunces", serif;
+  font-size: 1.25rem;
+  line-height: 25px;
+  background-color: hsl(179, 81%, 29%);
+  color: hsl(43, 78%, 98%);
+  border: none;
+  padding: 1.25rem 2.25rem;
+  border-radius: 6px;
+  margin-top: 4rem;
+  cursor: pointer;
+  background-color: hsl(25, 11%, 87%);
+  margin-top: 3rem;
+  align-self: flex-end;
+}
+.button-primary-activated:disabled:hover {
+  background-color: hsl(179, 55%, 61%);
+  transition: 0.2s;
+}
+
+.order-summary-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.order-summary-wrapper .order-summary {
+  background-color: hsl(216, 17%, 21%);
+  padding: 2.5rem 3rem 3rem 3rem;
+  border-radius: 6px;
+}
+.order-summary-wrapper .order-summary .order-summary-title {
+  font-family: "Barlow", sans-serif;
+  font-size: 1rem;
+  line-height: 26px;
+  font-weight: 400;
+  color: hsl(215, 5%, 54%);
+  text-transform: uppercase;
+}
+.order-summary-wrapper .order-summary .order-summary-body {
+  font-family: "Fraunces", serif;
+  font-size: 1.5rem;
+  line-height: 32px;
+  color: hsl(43, 78%, 98%);
+  padding-top: 1rem;
+}
+.order-summary-wrapper .order-summary .order-selection {
+  color: hsl(179, 81%, 29%);
+}
+
+.plan-sec-two-left .plan-menu .li-selected .li-number {
+  opacity: 1;
+  color: hsl(179, 81%, 29%);
+}
+.plan-sec-two-left .plan-menu .li-selected .li-body {
+  opacity: 1;
+}
+
+.hidden .accordion-header img {
+  transform: rotate(0);
+  transition: 0.2s;
+}
+.hidden .accordion-body {
+  display: none;
+}
+
+.disabled .accordion-body {
+  display: none;
+}
+
+@media screen and (max-width: 992px) {
+  .home-banner {
+    max-width: 55rem;
+    height: 600px;
+    margin: 0 5rem;
+    border-radius: 6px;
+    background-image: url("src/assets/home/tablet/image-hero-coffeepress.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .home-banner .home-banner-wrapper {
+    background: none;
+    padding-top: 6rem;
+    padding-left: 4rem;
+  }
+  .home-banner .home-banner-wrapper .home-banner-title {
+    font-family: "Fraunces", serif;
+    font-size: 4.5rem;
+    letter-spacing: -0.5px;
+    line-height: 72px;
+    font-size: 4rem;
+    color: hsl(43, 78%, 98%);
+    background: none;
+  }
+  .home-banner .home-banner-wrapper .home-banner-body {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    width: 26rem;
+    font-size: 15.5px;
+    background: none;
+    color: hsl(43, 78%, 98%);
+    margin-top: 2rem;
+  }
+  .home-banner .home-banner-wrapper .button-primary {
+    font-family: "Fraunces", serif;
+    font-size: 1.25rem;
+    line-height: 25px;
+    background-color: hsl(179, 81%, 29%);
+    color: hsl(43, 78%, 98%);
+    border: none;
+    padding: 1.25rem 2.25rem;
+    border-radius: 6px;
+    margin-top: 4rem;
+    cursor: pointer;
+  }
+  .home-banner .home-banner-wrapper .button-primary:hover {
+    background-color: hsl(179, 55%, 61%);
+    transition: 0.2s;
+  }
+  .home-sec-one {
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin: 0 5rem;
+  }
+  .home-sec-one .collection-title {
+    padding-top: 10rem;
+    text-align: center;
+    font-family: "Fraunces", serif;
+    font-size: 9.375rem;
+    line-height: 144px;
+    text-transform: lowercase;
+    font-size: 8rem;
+    background: -webkit-linear-gradient(hsl(215, 5%, 54%), hsl(43, 78%, 98%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 0;
+  }
+  .home-sec-one .home-collection {
+    background: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    align-content: center;
+    text-align: center;
+    margin-top: -3.3rem;
+  }
+  .home-sec-one .home-collection-card {
+    max-width: 14rem;
+    background: none;
+    z-index: 1;
+    padding-bottom: 12rem;
+  }
+  .home-sec-one .home-collection-card .home-collection-image {
+    background: none;
+    max-width: 10rem;
+  }
+  .home-sec-one .home-collection-card .home-collection-title {
+    font-family: "Fraunces", serif;
+    font-size: 1.5rem;
+    line-height: 32px;
+    font-size: 1.3rem;
+    color: hsl(216, 17%, 21%);
+    margin-top: 3rem;
+  }
+  .home-sec-one .home-collection-card .home-collection-body {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: hsl(216, 17%, 21%);
+    margin-top: 1.5rem;
+  }
+  .home-sec-two {
+    max-width: 80rem;
+    margin: auto;
+  }
+  .home-sec-two .home-why {
+    height: 36rem;
+    text-align: center;
+    padding-top: 7rem;
+    background-color: hsl(216, 17%, 21%);
+    border-radius: 6px;
+  }
+  .home-sec-two .home-why .home-why-title {
+    font-family: "Fraunces", serif;
+    font-size: 2.5rem;
+    line-height: 48px;
+    color: hsl(43, 78%, 98%);
+  }
+  .home-sec-two .home-why .home-why-body {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    color: hsl(43, 78%, 98%);
+    opacity: 0.7;
+    margin-top: 2rem;
+  }
+  .home-sec-two .home-why-card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    justify-items: center;
+    margin: -14rem 5rem 0 5rem;
+  }
+  .home-sec-two .home-why-card-wrapper .home-why-card {
+    text-align: center;
+    background-color: hsl(179, 81%, 29%);
+    border-radius: 6px;
+    padding: 2.5rem 2rem;
+    max-width: 21rem;
+    max-height: 25rem;
+  }
+  .home-sec-two .home-why-card-wrapper .home-why-card #truck-image {
+    margin-top: 0.5rem;
+  }
+  .home-sec-two .home-why-card-wrapper .home-why-card .home-why-card-image {
+    width: 24%;
+    height: auto;
+  }
+  .home-sec-two .home-why-card-wrapper .home-why-card-title {
+    font-family: "Fraunces", serif;
+    font-size: 1.5rem;
+    line-height: 32px;
+    font-size: 1.2rem;
+    color: hsl(43, 78%, 98%);
+    padding-top: 1.5rem;
+  }
+  .home-sec-two .home-why-card-wrapper .home-why-card-body {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 0.85rem;
+    color: hsl(43, 78%, 98%);
+    padding-top: 1rem;
+  }
+  .home-sec-three {
+    padding-top: 10rem;
+    max-width: 65rem;
+    margin: 0 5rem;
+  }
+  .home-sec-three .home-how-title {
+    font-family: "Fraunces", serif;
+    font-size: 1.5rem;
+    line-height: 32px;
+    color: hsl(215, 5%, 54%);
+  }
+  .home-sec-three .home-how-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .home-sec-three .home-how-wrapper #third-line {
+    border: none;
+  }
+  .home-sec-three .home-how-wrapper .home-how-card {
+    max-width: 17.8rem;
+  }
+  .home-sec-three .home-how-wrapper .home-how-card::before {
+    content: "";
+    top: -1rem;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid hsl(179, 81%, 29%);
+    background-color: hsl(43, 78%, 98%);
+  }
+  .home-sec-three .home-how-wrapper .home-how-card .home-how-number {
+    font-family: "Fraunces", serif;
+    font-size: 4.5rem;
+    letter-spacing: -0.5px;
+    line-height: 72px;
+    font-size: 3.75rem;
+    color: hsl(25, 94%, 86%);
+  }
+  .home-sec-three .home-how-wrapper .home-how-card .home-how-step {
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    line-height: 40px;
+    font-size: 1.75rem;
+    color: hsl(216, 17%, 21%);
+    padding-top: 2.5rem;
+    max-width: 14rem;
+  }
+  .home-sec-three .home-how-wrapper .home-how-card .home-how-description {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 0.85rem;
+    color: hsl(216, 17%, 21%);
+    padding-top: 3rem;
+    max-width: 15rem;
+  }
+  .home-sec-three .button-home-how {
+    font-family: "Fraunces", serif;
+    font-size: 1.25rem;
+    line-height: 25px;
+    background-color: hsl(179, 81%, 29%);
+    color: hsl(43, 78%, 98%);
+    border: none;
+    padding: 1.25rem 2.25rem;
+    border-radius: 6px;
+    margin-top: 4rem;
+    cursor: pointer;
+    margin-bottom: 15rem;
+  }
+  .home-sec-three .button-home-how:hover {
+    background-color: hsl(179, 55%, 61%);
+    transition: 0.2s;
+  }
+}
+@media screen and (max-width: 768px) {
+  .home-banner {
+    max-width: 48rem;
+    height: 500px;
+    margin: 0 2.5rem;
+    border-radius: 6px;
+    background-image: url("src/assets/home/tablet/image-hero-coffeepress.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .home-banner .home-banner-wrapper {
+    background: none;
+    padding-top: 6rem;
+    padding-left: 3rem;
+  }
+  .home-banner .home-banner-wrapper .home-banner-title {
+    font-family: "Fraunces", serif;
+    font-size: 4.5rem;
+    letter-spacing: -0.5px;
+    line-height: 72px;
+    font-size: 3rem;
+    line-height: 3rem;
+    color: hsl(43, 78%, 98%);
+    background: none;
+  }
+  .home-banner .home-banner-wrapper .home-banner-body {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    background: none;
+    color: hsl(43, 78%, 98%);
+    margin-top: 2rem;
+    width: 24.8rem;
+  }
+  .home-banner .home-banner-wrapper .button-primary {
+    font-family: "Fraunces", serif;
+    font-size: 1.25rem;
+    line-height: 25px;
+    background-color: hsl(179, 81%, 29%);
+    color: hsl(43, 78%, 98%);
+    border: none;
+    padding: 1.25rem 2.25rem;
+    border-radius: 6px;
+    margin-top: 4rem;
+    cursor: pointer;
+    width: 13.56rem;
+    margin-top: 3rem;
+    font-size: 18px;
+    padding: 1rem;
+  }
+  .home-banner .home-banner-wrapper .button-primary:hover {
+    background-color: hsl(179, 55%, 61%);
+    transition: 0.2s;
+  }
+  .home-sec-one {
+    max-width: 48rem;
+    margin: 0 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+  }
+  .home-sec-one .collection-title {
+    padding-top: 8rem;
+    text-align: center;
+    font-family: "Fraunces", serif;
+    font-size: 9.375rem;
+    line-height: 144px;
+    text-transform: lowercase;
+    font-size: 6rem;
+    background: -webkit-linear-gradient(hsl(215, 5%, 54%), hsl(43, 78%, 98%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 0;
+  }
+  .home-sec-one .home-collection {
+    background: none;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: none;
+    margin-top: -3.9rem;
+    justify-items: center;
+    text-align: left;
+    gap: 3rem;
+    padding-bottom: 12rem;
+  }
+  .home-sec-one .home-collection-card {
+    box-sizing: border-box;
+    max-width: 43rem;
+    background: none;
+    z-index: 1;
+    padding-bottom: 0rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .home-sec-one .home-collection-card .home-collection-image {
+    background: none;
+    max-width: 15.9rem;
+  }
+  .home-sec-one .home-collection-card .home-collection-words-wrapper {
+    margin-top: -2rem;
+  }
+  .home-sec-one .home-collection-card .home-collection-title {
+    font-family: "Fraunces", serif;
+    font-size: 1.5rem;
+    line-height: 32px;
+    color: hsl(216, 17%, 21%);
+    margin-top: 3rem;
+  }
+  .home-sec-one .home-collection-card .home-collection-body {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(216, 17%, 21%);
+    margin-top: 1.5rem;
+    width: 18rem;
+  }
+  .home-sec-two {
+    max-width: 48rem;
+    margin: auto;
+    margin: 0 2.5rem;
+  }
+  .home-sec-two .home-why {
+    height: 36rem;
+    text-align: center;
+    padding-top: 4rem;
+    background-color: hsl(216, 17%, 21%);
+    border-radius: 6px;
+  }
+  .home-sec-two .home-why .home-why-title {
+    font-family: "Fraunces", serif;
+    font-size: 2.5rem;
+    line-height: 48px;
+    font-size: 2rem;
+    color: hsl(43, 78%, 98%);
+  }
+  .home-sec-two .home-why .home-why-body {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    color: hsl(43, 78%, 98%);
+    font-size: 15px;
+    opacity: 0.7;
+    margin-top: 1.5rem;
+  }
+  .home-sec-two .home-why-card-wrapper {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: none;
+    margin-top: -19rem;
+    gap: 1.5rem;
+  }
+  .home-sec-two .home-why-card-wrapper .home-why-card {
+    max-width: 0;
+    max-width: 100%;
+    max-height: 0;
+    max-height: 11.25rem;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(179, 81%, 29%);
+    border-radius: 6px;
+    padding: 2.5rem 3.5rem;
+  }
+  .home-sec-two .home-why-card-wrapper .home-why-card #truck-image {
+    margin-top: 0.5rem;
+  }
+  .home-sec-two .home-why-card-wrapper .home-why-card .home-why-card-image {
+    width: 15%;
+    height: auto;
+    margin-right: 3.5rem;
+  }
+  .home-sec-two .home-why-card-wrapper .home-why-card-title {
+    font-family: "Fraunces", serif;
+    font-size: 1.5rem;
+    line-height: 32px;
+    font-size: 3vw;
+    line-height: 1.5rem;
+    color: hsl(43, 78%, 98%);
+    margin-top: -1.5rem;
+  }
+  .home-sec-two .home-why-card-wrapper .home-why-card-body {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 2.1vw;
+    color: hsl(43, 78%, 98%);
+    padding-top: 1rem;
+  }
+  .home-sec-three {
+    padding-top: 10rem;
+    max-width: 43rem;
+    margin: auto;
+  }
+  .home-sec-three .home-how-title {
+    font-family: "Fraunces", serif;
+    font-size: 1.5rem;
+    line-height: 32px;
+    color: hsl(215, 5%, 54%);
+    padding-bottom: 4rem;
+  }
+  .home-sec-three .home-how-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: top;
+  }
+  .home-sec-three .home-how-wrapper #third-line {
+    border: none;
+  }
+  .home-sec-three .home-how-wrapper .home-how-card {
+    max-width: 17.8rem;
+  }
+  .home-sec-three .home-how-wrapper .home-how-card .home-how-number {
+    font-family: "Fraunces", serif;
+    font-size: 4.5rem;
+    letter-spacing: -0.5px;
+    line-height: 72px;
+    font-size: 3.75rem;
+    color: hsl(25, 94%, 86%);
+  }
+  .home-sec-three .home-how-wrapper .home-how-card .home-how-step {
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    line-height: 40px;
+    font-size: 1.7rem;
+    color: hsl(216, 17%, 21%);
+    padding-top: 2.5rem;
+    max-width: 12rem;
+  }
+  .home-sec-three .home-how-wrapper .home-how-card .home-how-description {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 14px;
+    color: hsl(216, 17%, 21%);
+    padding-top: 2rem;
+    max-width: 12.3rem;
+  }
+  .home-sec-three .button-home-how {
+    font-family: "Fraunces", serif;
+    font-size: 1.25rem;
+    line-height: 25px;
+    background-color: hsl(179, 81%, 29%);
+    color: hsl(43, 78%, 98%);
+    border: none;
+    padding: 1.25rem 2.25rem;
+    border-radius: 6px;
+    margin-top: 4rem;
+    cursor: pointer;
+    width: 13rem;
+    margin-top: 3rem;
+    font-size: 18px;
+    padding: 1rem;
+  }
+  .home-sec-three .button-home-how:hover {
+    background-color: hsl(179, 55%, 61%);
+    transition: 0.2s;
+  }
+}
+@media screen and (max-width: 576px) {
+  .home-banner {
+    max-width: 36rem;
+    height: 40rem;
+    margin: 0 2rem;
+    border-radius: 6px;
+    background-image: url("src/assets/home/mobile/image-hero-coffeepress.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .home-banner .home-banner-wrapper {
+    background: none;
+    padding-top: 7rem;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home-banner .home-banner-wrapper .home-banner-title {
+    font-family: "Fraunces", serif;
+    font-size: 4.5rem;
+    letter-spacing: -0.5px;
+    line-height: 72px;
+    font-size: 3.5rem;
+    color: hsl(43, 78%, 98%);
+    background: none;
+    text-align: center;
+  }
+  .home-banner .home-banner-wrapper .home-banner-body {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    line-height: 30px;
+    background: none;
+    color: hsl(43, 78%, 98%);
+    margin-top: 2rem;
+    width: 22rem;
+    text-align: center;
+  }
+  .home-banner .home-banner-wrapper .button-primary {
+    font-family: "Fraunces", serif;
+    font-size: 1.25rem;
+    line-height: 25px;
+    background-color: hsl(179, 81%, 29%);
+    color: hsl(43, 78%, 98%);
+    border: none;
+    padding: 1.25rem 2.25rem;
+    border-radius: 6px;
+    margin-top: 4rem;
+    cursor: pointer;
+    width: 16rem;
+    margin-top: 3rem;
+  }
+  .home-banner .home-banner-wrapper .button-primary:hover {
+    background-color: hsl(179, 55%, 61%);
+    transition: 0.2s;
+  }
+  .home-sec-one {
+    max-width: 48rem;
+    margin: 0 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+  }
+  .home-sec-one .collection-title {
+    padding-top: 8rem;
+    text-align: center;
+    font-family: "Fraunces", serif;
+    font-size: 9.375rem;
+    line-height: 144px;
+    text-transform: lowercase;
+    font-size: 4rem;
+    background: -webkit-linear-gradient(hsl(215, 5%, 54%), hsl(43, 78%, 98%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 0;
+  }
+  .home-sec-one .home-collection {
+    background: none;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: none;
+    margin-top: 0;
+    justify-items: center;
+    text-align: left;
+    gap: 3rem;
+    padding-bottom: 12rem;
+  }
+  .home-sec-one .home-collection-card {
+    box-sizing: border-box;
+    max-width: 43rem;
+    background: none;
+    z-index: 1;
+    padding-bottom: 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .home-sec-one .home-collection-card .home-collection-image {
+    background: none;
+    max-width: 15.9rem;
+  }
+  .home-sec-one .home-collection-card .home-collection-words-wrapper {
+    margin-top: -2rem;
+  }
+  .home-sec-one .home-collection-card .home-collection-title {
+    font-family: "Fraunces", serif;
+    font-size: 1.5rem;
+    line-height: 32px;
+    color: hsl(216, 17%, 21%);
+    margin-top: 3rem;
+    text-align: center;
+  }
+  .home-sec-one .home-collection-card .home-collection-body {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(216, 17%, 21%);
+    margin-top: 1.5rem;
+    width: 18rem;
+    text-align: center;
+  }
+  .home-sec-two {
+    max-width: 36rem;
+    margin: auto;
+    margin: 0 2rem;
+    position: relative;
+  }
+  .home-sec-two .home-why {
+    height: 100vh;
+    text-align: center;
+    padding-top: 4rem;
+    background-color: hsl(216, 17%, 21%);
+    border-radius: 6px;
+  }
+  .home-sec-two .home-why .home-why-title {
+    font-family: "Fraunces", serif;
+    font-size: 2.5rem;
+    line-height: 48px;
+    font-size: 2rem;
+    color: hsl(43, 78%, 98%);
+  }
+  .home-sec-two .home-why .home-why-body {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    color: hsl(43, 78%, 98%);
+    font-size: 18px;
+    opacity: 0.7;
+    margin: 1.5rem 2rem 0 2rem;
+  }
+  .home-sec-two .home-why-card-wrapper {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: none;
+    gap: 2rem;
+    justify-content: center;
+    margin: 0;
+    margin: -37rem 2rem 0 2rem;
+  }
+  .home-sec-two .home-why-card-wrapper .home-why-card {
+    max-height: 0;
+    max-height: 40rem;
+    max-width: 0;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(179, 81%, 29%);
+    border-radius: 6px;
+  }
+  .home-sec-two .home-why-card-wrapper .home-why-card #truck-image {
+    margin-top: 5rem;
+  }
+  .home-sec-two .home-why-card-wrapper .home-why-card .home-why-card-image {
+    width: 100%;
+    max-width: 6.25rem;
+    margin-right: 0;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+  }
+  .home-sec-two .home-why-card-wrapper .home-why-card-title {
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    line-height: 40px;
+    color: hsl(43, 78%, 98%);
+    margin-top: -1.5rem;
+    text-align: center;
+  }
+  .home-sec-two .home-why-card-wrapper .home-why-card-body {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: hsl(43, 78%, 98%);
+    text-align: center;
+    padding: 2rem;
+  }
+  .home-sec-three {
+    padding-top: 8rem;
+    max-width: 36rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home-sec-three .home-how-title {
+    font-family: "Fraunces", serif;
+    font-size: 1.5rem;
+    line-height: 32px;
+    color: hsl(215, 5%, 54%);
+    padding-bottom: 0;
+    text-align: center;
+  }
+  .home-sec-three .home-how-wrapper {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: none;
+    max-width: 36rem;
+  }
+  .home-sec-three .home-how-wrapper #third-line {
+    border: none;
+  }
+  .home-sec-three .home-how-wrapper .home-how-card {
+    max-width: 0;
+    max-width: 85%;
+    margin: auto;
+    border: none;
+  }
+  .home-sec-three .home-how-wrapper .home-how-card::before {
+    display: none;
+    content: "";
+    top: -1rem;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid hsl(179, 81%, 29%);
+    background-color: hsl(43, 78%, 98%);
+  }
+  .home-sec-three .home-how-wrapper .home-how-card .home-how-number {
+    font-family: "Fraunces", serif;
+    font-size: 4.5rem;
+    letter-spacing: -0.5px;
+    line-height: 72px;
+    color: hsl(25, 94%, 86%);
+    text-align: center;
+    padding-top: 1rem;
+  }
+  .home-sec-three .home-how-wrapper .home-how-card .home-how-step {
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    line-height: 40px;
+    color: hsl(216, 17%, 21%);
+    padding-top: 2.5rem;
+    max-width: 0;
+    max-width: 36rem;
+    text-align: center;
+    margin: auto;
+  }
+  .home-sec-three .home-how-wrapper .home-how-card .home-how-description {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    color: hsl(216, 17%, 21%);
+    padding-top: 2rem;
+    text-align: center;
+    max-width: 35rem;
+  }
+  .home-sec-three .button-home-how {
+    font-family: "Fraunces", serif;
+    font-size: 1.25rem;
+    line-height: 25px;
+    background-color: hsl(179, 81%, 29%);
+    color: hsl(43, 78%, 98%);
+    border: none;
+    padding: 1.25rem 2.25rem;
+    border-radius: 6px;
+    margin-top: 4rem;
+    cursor: pointer;
+    width: 16rem;
+    margin-top: 6rem;
+    margin-bottom: 10rem;
+    padding: 1rem;
+  }
+  .home-sec-three .button-home-how:hover {
+    background-color: hsl(179, 55%, 61%);
+    transition: 0.2s;
+  }
+}
+@media screen and (max-width: 374px) {
+  .home-banner {
+    max-width: 23.375rem;
+    height: 31.25rem;
+    margin: 0 1rem;
+    border-radius: 6px;
+    background-image: url("src/assets/home/mobile/image-hero-coffeepress.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .home-banner .home-banner-wrapper {
+    background: none;
+    padding-top: 5.5rem;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home-banner .home-banner-wrapper .home-banner-title {
+    font-family: "Fraunces", serif;
+    font-size: 2.5rem;
+    line-height: 48px;
+    color: hsl(43, 78%, 98%);
+    background: none;
+    text-align: center;
+  }
+  .home-banner .home-banner-wrapper .home-banner-body {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 15px;
+    background: none;
+    color: hsl(43, 78%, 98%);
+    margin-top: 1.5rem;
+    width: 17.43rem;
+    text-align: center;
+  }
+  .home-banner .home-banner-wrapper .button-primary {
+    font-family: "Fraunces", serif;
+    font-size: 1.25rem;
+    line-height: 25px;
+    background-color: hsl(179, 81%, 29%);
+    color: hsl(43, 78%, 98%);
+    border: none;
+    padding: 1.25rem 2.25rem;
+    border-radius: 6px;
+    margin-top: 4rem;
+    cursor: pointer;
+    font-size: 18px;
+    width: 13rem;
+    margin-top: 2.5rem;
+    padding: 1rem;
+  }
+  .home-banner .home-banner-wrapper .button-primary:hover {
+    background-color: hsl(179, 55%, 61%);
+    transition: 0.2s;
+  }
+  .home-sec-one {
+    max-width: 23.375rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+  }
+  .home-sec-one .collection-title {
+    margin-top: 6rem;
+    text-align: center;
+    font-family: "Fraunces", serif;
+    font-size: 9.375rem;
+    line-height: 144px;
+    text-transform: lowercase;
+    line-height: 4rem;
+    font-size: 2.8rem;
+    padding: 0 1rem;
+    background: -webkit-linear-gradient(hsl(215, 5%, 54%), hsl(43, 78%, 98%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 0;
+  }
+  .home-sec-one .home-collection {
+    background: none;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: none;
+    margin-top: 0;
+    justify-items: center;
+    text-align: left;
+    gap: 3rem;
+    padding: 0;
+    padding-bottom: 8rem;
+  }
+  .home-sec-one .home-collection-card {
+    box-sizing: border-box;
+    max-width: 43rem;
+    background: none;
+    z-index: 1;
+    padding-bottom: 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .home-sec-one .home-collection-card .home-collection-image {
+    background: none;
+    max-width: 15.9rem;
+  }
+  .home-sec-one .home-collection-card .home-collection-words-wrapper {
+    margin-top: -2rem;
+  }
+  .home-sec-one .home-collection-card .home-collection-title {
+    font-family: "Fraunces", serif;
+    font-size: 1.5rem;
+    line-height: 32px;
+    color: hsl(216, 17%, 21%);
+    margin-top: 3rem;
+    text-align: center;
+  }
+  .home-sec-one .home-collection-card .home-collection-body {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(216, 17%, 21%);
+    margin-top: 1.5rem;
+    width: 18rem;
+    text-align: center;
+  }
+  .home-sec-two {
+    max-width: 23.375rem;
+    margin: auto;
+    margin: 0 1rem;
+    position: relative;
+  }
+  .home-sec-two .home-why {
+    height: 100vh;
+    text-align: center;
+    padding-top: 4rem;
+    background-color: hsl(216, 17%, 21%);
+    border-radius: 6px;
+  }
+  .home-sec-two .home-why .home-why-title {
+    font-family: "Fraunces", serif;
+    font-size: 2.5rem;
+    line-height: 48px;
+    font-size: 1.75rem;
+    color: hsl(43, 78%, 98%);
+  }
+  .home-sec-two .home-why .home-why-body {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    color: hsl(43, 78%, 98%);
+    font-size: 15px;
+    opacity: 0.7;
+    margin: 1.5rem 1rem 0 1rem;
+  }
+  .home-sec-two .home-why-card-wrapper {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: none;
+    gap: 2rem;
+    justify-content: center;
+    margin: 0;
+    margin: -38rem 2rem 0 2rem;
+  }
+  .home-sec-two .home-why-card-wrapper .home-why-card {
+    max-height: 0;
+    max-height: 23.875rem;
+    max-width: 0;
+    max-width: 17.43rem;
+    padding: 3rem 1rem;
+    display: block;
+    background-color: hsl(179, 81%, 29%);
+    border-radius: 6px;
+  }
+  .home-sec-two .home-why-card-wrapper .home-why-card #truck-image {
+    margin-top: 3rem;
+  }
+  .home-sec-two .home-why-card-wrapper .home-why-card .home-why-card-image {
+    width: 100%;
+    max-width: 4.5rem;
+    margin-right: 0;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+  }
+  .home-sec-two .home-why-card-wrapper .home-why-card-title {
+    font-family: "Fraunces", serif;
+    font-size: 1.5rem;
+    line-height: 32px;
+    color: hsl(43, 78%, 98%);
+    margin-top: -1.5rem;
+    text-align: center;
+  }
+  .home-sec-two .home-why-card-wrapper .home-why-card-body {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: hsl(43, 78%, 98%);
+    text-align: center;
+    padding: 1rem;
+  }
+  .home-sec-three {
+    padding-top: 8rem;
+    max-width: 23.375rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home-sec-three .home-how-title {
+    font-family: "Fraunces", serif;
+    font-size: 1.5rem;
+    line-height: 32px;
+    color: hsl(215, 5%, 54%);
+    padding-bottom: 0;
+    text-align: center;
+  }
+  .home-sec-three .home-how-wrapper {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: none;
+    max-width: 36rem;
+  }
+  .home-sec-three .home-how-wrapper #third-line {
+    border: none;
+  }
+  .home-sec-three .home-how-wrapper .home-how-card {
+    max-width: 0;
+    max-width: 85%;
+    margin: auto;
+    border: none;
+  }
+  .home-sec-three .home-how-wrapper .home-how-card::before {
+    display: none;
+    content: "";
+    top: -1rem;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid hsl(179, 81%, 29%);
+    background-color: hsl(43, 78%, 98%);
+  }
+  .home-sec-three .home-how-wrapper .home-how-card .home-how-number {
+    font-family: "Fraunces", serif;
+    font-size: 4.5rem;
+    letter-spacing: -0.5px;
+    line-height: 72px;
+    color: hsl(25, 94%, 86%);
+    text-align: center;
+    padding-top: 1rem;
+  }
+  .home-sec-three .home-how-wrapper .home-how-card .home-how-step {
+    font-family: "Fraunces", serif;
+    font-size: 1.5rem;
+    line-height: 32px;
+    color: hsl(216, 17%, 21%);
+    padding-top: 2.5rem;
+    max-width: 0;
+    max-width: 36rem;
+    text-align: center;
+    margin: auto;
+  }
+  .home-sec-three .home-how-wrapper .home-how-card .home-how-description {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(216, 17%, 21%);
+    padding: 2rem 0.25rem 0 0.25rem;
+    text-align: center;
+    max-width: 23rem;
+  }
+  .home-sec-three .button-home-how {
+    font-family: "Fraunces", serif;
+    font-size: 1.25rem;
+    line-height: 25px;
+    background-color: hsl(179, 81%, 29%);
+    color: hsl(43, 78%, 98%);
+    border: none;
+    padding: 1.25rem 2.25rem;
+    border-radius: 6px;
+    margin-top: 4rem;
+    cursor: pointer;
+    width: 16rem;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    padding: 1rem;
+  }
+  .home-sec-three .button-home-how:hover {
+    background-color: hsl(179, 55%, 61%);
+    transition: 0.2s;
+  }
+}
+@media screen and (max-width: 993px) {
+  .about-banner {
+    background: url("src/assets/about/tablet/image-hero-whitecup.jpg");
+    max-width: 55rem;
+    margin: 0 5rem;
+    height: 450px;
+    border-radius: 6px;
+    background-size: cover;
+  }
+  .about-banner .about-banner-wrapper {
+    padding-top: 8rem;
+    padding-left: 5rem;
+  }
+  .about-banner .about-banner-wrapper .about-banner-title {
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    line-height: 40px;
+    color: hsl(43, 78%, 98%);
+  }
+  .about-banner .about-banner-wrapper .about-banner-body {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    color: hsl(43, 78%, 98%);
+    margin-top: 2rem;
+  }
+  .about-commit {
+    padding-top: 10rem;
+    max-width: 55rem;
+    margin: 0 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    gap: 2rem;
+  }
+  .about-commit .about-commit-left {
+    border-radius: 6px;
+    background: url("src/assets/about/tablet/image-commitment.jpg");
+    width: 281px;
+    height: 470px;
+  }
+  .about-commit .about-commit-right {
+    max-width: 33.7rem;
+  }
+  .about-commit .about-commit-right .about-commit-title {
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    line-height: 40px;
+    color: hsl(216, 17%, 21%);
+  }
+  .about-commit .about-commit-right .about-commit-body {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(215, 5%, 54%);
+    margin-top: 2rem;
+  }
+  .about-quality {
+    max-width: 55rem;
+    height: 29.6rem;
+    margin: 0 5rem;
+    margin-top: 20rem;
+    background: url("src/assets/about/tablet/bg-quality.png");
+    background-size: cover;
+  }
+  .about-quality .about-quality-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0 5rem;
+    align-items: center;
+    justify-items: center;
+  }
+  .about-quality .about-quality-wrapper .about-quality-left {
+    text-align: center;
+  }
+  .about-quality .about-quality-wrapper .about-quality-left .about-quality-title {
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    line-height: 40px;
+    color: hsl(43, 78%, 98%);
+  }
+  .about-quality .about-quality-wrapper .about-quality-left .about-quality-body {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(43, 78%, 98%);
+    opacity: 0.8;
+    padding-top: 2rem;
+  }
+  .about-quality .about-quality-wrapper .about-quality-right {
+    background: url("src/assets/about/tablet/image-quality.jpg");
+    margin-top: -10rem;
+    width: 573px;
+    height: 320px;
+  }
+  .about-hq {
+    padding-top: 10rem;
+    padding-bottom: 15rem;
+    max-width: 55rem;
+    margin: 0 5rem;
+  }
+  .about-hq .about-hq-title {
+    font-family: "Fraunces", serif;
+    font-size: 1.5rem;
+    line-height: 32px;
+    color: hsl(215, 5%, 54%);
+    padding-bottom: 5rem;
+  }
+  .about-hq .about-hq-card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8rem;
+  }
+  .about-hq .about-hq-card-wrapper .about-hq-card {
+    max-width: 120rem;
+  }
+  .about-hq .about-hq-card-wrapper .about-hq-card .about-hq-card-title {
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    line-height: 40px;
+    color: hsl(216, 17%, 21%);
+    padding-top: 2rem;
+  }
+  .about-hq .about-hq-card-wrapper .about-hq-card .about-hq-card-body {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    color: hsl(216, 17%, 21%);
+    padding-top: 2rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .about-banner {
+    background: url("src/assets/about/tablet/image-hero-whitecup.jpg");
+    max-width: 48rem;
+    margin: 0 2.5rem;
+    height: 400px;
+    border-radius: 6px;
+    background-size: contain;
+  }
+  .about-banner .about-banner-wrapper {
+    padding-top: 6rem;
+    padding-left: 3rem;
+  }
+  .about-banner .about-banner-wrapper .about-banner-title {
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    line-height: 40px;
+    color: hsl(43, 78%, 98%);
+  }
+  .about-banner .about-banner-wrapper .about-banner-body {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(43, 78%, 98%);
+    margin-top: 2rem;
+  }
+  .about-commit {
+    padding-top: 10rem;
+    max-width: 48rem;
+    margin: 0 2.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1.05fr;
+    align-items: center;
+    justify-items: center;
+    gap: 2rem;
+  }
+  .about-commit .about-commit-left {
+    border-radius: 6px;
+    background: url("src/assets/about/tablet/image-commitment.jpg");
+    background-size: contain;
+    width: 281px;
+    height: 470px;
+  }
+  .about-commit .about-commit-right {
+    max-width: 33.7rem;
+  }
+  .about-commit .about-commit-right .about-commit-title {
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    line-height: 40px;
+    color: hsl(216, 17%, 21%);
+  }
+  .about-commit .about-commit-right .about-commit-body {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(215, 5%, 54%);
+    margin-top: 2rem;
+  }
+  .about-quality {
+    max-width: 48rem;
+    height: 29.6rem;
+    margin: 0 2.5rem;
+    margin-top: 20rem;
+    background: url("src/assets/about/tablet/bg-quality.png");
+    background-size: cover;
+  }
+  .about-quality .about-quality-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0 5rem;
+    align-items: center;
+    justify-items: center;
+  }
+  .about-quality .about-quality-wrapper .about-quality-left {
+    margin-top: -2rem;
+    text-align: center;
+  }
+  .about-quality .about-quality-wrapper .about-quality-left .about-quality-title {
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    line-height: 40px;
+    color: hsl(43, 78%, 98%);
+  }
+  .about-quality .about-quality-wrapper .about-quality-left .about-quality-body {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(43, 78%, 98%);
+    opacity: 0.8;
+    padding-top: 2rem;
+  }
+  .about-quality .about-quality-wrapper .about-quality-right {
+    background: url("src/assets/about/tablet/image-quality.jpg");
+    margin-top: -10rem;
+    width: 573px;
+    height: 320px;
+  }
+  .about-hq {
+    padding-top: 10rem;
+    padding-bottom: 15rem;
+    max-width: 48rem;
+    margin: 0 2.5rem;
+  }
+  .about-hq .about-hq-title {
+    font-family: "Fraunces", serif;
+    font-size: 1.5rem;
+    line-height: 32px;
+    color: hsl(215, 5%, 54%);
+    padding-bottom: 5rem;
+  }
+  .about-hq .about-hq-card-wrapper {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: end;
+    gap: 1rem;
+  }
+  .about-hq .about-hq-card-wrapper .about-hq-card {
+    max-width: 13.875rem;
+  }
+  .about-hq .about-hq-card-wrapper .about-hq-card .about-hq-card-title {
+    font-family: "Fraunces", serif;
+    font-size: 1.5rem;
+    line-height: 32px;
+    color: hsl(216, 17%, 21%);
+    padding-top: 2rem;
+    width: 100%;
+  }
+  .about-hq .about-hq-card-wrapper .about-hq-card .about-hq-card-body {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    color: hsl(216, 17%, 21%);
+    padding-top: 2rem;
+  }
+  .about-hq .about-hq-card-wrapper .about-hq-card img {
+    width: 25%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .about-banner {
+    background: url("src/assets/about/mobile/image-hero-whitecup.jpg");
+    max-width: 40rem;
+    margin: 0 2rem;
+    height: 400px;
+    border-radius: 6px;
+    background-size: cover;
+  }
+  .about-banner .about-banner-wrapper {
+    padding-top: 6rem;
+    padding-left: 0;
+    text-align: center;
+  }
+  .about-banner .about-banner-wrapper .about-banner-title {
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    line-height: 40px;
+    color: hsl(43, 78%, 98%);
+  }
+  .about-banner .about-banner-wrapper .about-banner-body {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 16px;
+    color: hsl(43, 78%, 98%);
+    margin: 2rem;
+  }
+  .about-commit {
+    padding-top: 10rem;
+    max-width: 40rem;
+    margin: 0 2rem;
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    gap: 2rem;
+  }
+  .about-commit .about-commit-left {
+    border-radius: 6px;
+    background: url("src/assets/about/mobile/image-commitment.jpg");
+    background-size: cover;
+    width: 281px;
+    height: 470px;
+  }
+  .about-commit .about-commit-right {
+    text-align: center;
+    max-width: 35rem;
+  }
+  .about-commit .about-commit-right .about-commit-title {
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    line-height: 40px;
+    color: hsl(216, 17%, 21%);
+  }
+  .about-commit .about-commit-right .about-commit-body {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(215, 5%, 54%);
+    margin-top: 2rem;
+  }
+  .about-quality {
+    max-width: 40rem;
+    height: 31.81rem;
+    margin: 0 2rem;
+    margin-top: 10rem;
+    background: url("src/assets/about/mobile/bg-quality.png");
+    background-size: cover;
+  }
+  .about-quality .about-quality-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0 5rem;
+    align-items: center;
+    justify-items: center;
+  }
+  .about-quality .about-quality-wrapper .about-quality-left {
+    margin-top: -2rem;
+    text-align: center;
+  }
+  .about-quality .about-quality-wrapper .about-quality-left .about-quality-title {
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    line-height: 40px;
+    color: hsl(43, 78%, 98%);
+  }
+  .about-quality .about-quality-wrapper .about-quality-left .about-quality-body {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(43, 78%, 98%);
+    opacity: 0.8;
+    padding-top: 2rem;
+  }
+  .about-quality .about-quality-wrapper .about-quality-right {
+    background: url("src/assets/about/mobile/image-quality.jpg");
+    background-size: cover;
+    margin-top: -5rem;
+    width: 279px;
+    height: 156px;
+  }
+  .about-hq {
+    padding-top: 10rem;
+    padding-bottom: 15rem;
+    max-width: 48rem;
+    margin: 0 2.5rem;
+  }
+  .about-hq .about-hq-title {
+    font-family: "Fraunces", serif;
+    font-size: 1.5rem;
+    line-height: 32px;
+    color: hsl(215, 5%, 54%);
+    padding-bottom: 5rem;
+    text-align: center;
+  }
+  .about-hq .about-hq-card-wrapper {
+    text-align: center;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    gap: 5rem;
+  }
+  .about-hq .about-hq-card-wrapper .about-hq-card {
+    max-width: 13.875rem;
+  }
+  .about-hq .about-hq-card-wrapper .about-hq-card .about-hq-card-title {
+    font-family: "Fraunces", serif;
+    font-size: 1.5rem;
+    line-height: 32px;
+    color: hsl(216, 17%, 21%);
+    padding-top: 2rem;
+    width: 100%;
+  }
+  .about-hq .about-hq-card-wrapper .about-hq-card .about-hq-card-body {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    color: hsl(216, 17%, 21%);
+    padding-top: 2rem;
+  }
+  .about-hq .about-hq-card-wrapper .about-hq-card img {
+    width: 25%;
+  }
+}
+@media screen and (max-width: 374px) {
+  .about-banner {
+    background: url("src/assets/about/mobile/image-hero-whitecup.jpg");
+    max-width: 23.375rem;
+    margin: 0 1rem;
+    height: 400px;
+    border-radius: 6px;
+    background-size: contain;
+  }
+  .about-banner .about-banner-wrapper {
+    padding-top: 5rem;
+    padding-left: 0;
+    text-align: center;
+  }
+  .about-banner .about-banner-wrapper .about-banner-title {
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    line-height: 40px;
+    font-size: 1.75rem;
+    color: hsl(43, 78%, 98%);
+  }
+  .about-banner .about-banner-wrapper .about-banner-body {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(43, 78%, 98%);
+    margin: 2rem 1.5rem 0 1.5rem;
+  }
+  .about-commit {
+    padding-top: 10rem;
+    max-width: 23.375rem;
+    margin: 0 1rem;
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    gap: 2rem;
+  }
+  .about-commit .about-commit-left {
+    border-radius: 6px;
+    background: url("src/assets/about/mobile/image-commitment.jpg");
+    background-size: cover;
+    width: 327px;
+    height: 400px;
+  }
+  .about-commit .about-commit-right {
+    text-align: center;
+    max-width: 100%;
+  }
+  .about-commit .about-commit-right .about-commit-title {
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    line-height: 40px;
+    color: hsl(216, 17%, 21%);
+  }
+  .about-commit .about-commit-right .about-commit-body {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(215, 5%, 54%);
+    margin-top: 2rem;
+  }
+  .about-quality {
+    max-width: 23.375rem;
+    height: 31.81rem;
+    margin: 0 1rem;
+    margin-top: 10rem;
+    background: url("src/assets/about/mobile/bg-quality.png");
+    background-size: cover;
+  }
+  .about-quality .about-quality-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0 1rem;
+    align-items: center;
+    justify-items: center;
+  }
+  .about-quality .about-quality-wrapper .about-quality-left {
+    margin-top: -2rem;
+    text-align: center;
+  }
+  .about-quality .about-quality-wrapper .about-quality-left .about-quality-title {
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    line-height: 40px;
+    font-size: 1.75rem;
+    color: hsl(43, 78%, 98%);
+  }
+  .about-quality .about-quality-wrapper .about-quality-left .about-quality-body {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(43, 78%, 98%);
+    opacity: 0.8;
+    padding-top: 1rem;
+  }
+  .about-quality .about-quality-wrapper .about-quality-right {
+    background: url("src/assets/about/mobile/image-quality.jpg");
+    background-size: cover;
+    margin-top: -5rem;
+    width: 279px;
+    height: 156px;
+  }
+  .about-hq {
+    padding-top: 10rem;
+    padding-bottom: 15rem;
+    max-width: 23.375rem;
+    margin: 0 1rem;
+  }
+  .about-hq .about-hq-title {
+    font-family: "Fraunces", serif;
+    font-size: 1.5rem;
+    line-height: 32px;
+    color: hsl(215, 5%, 54%);
+    padding-bottom: 5rem;
+    text-align: center;
+  }
+  .about-hq .about-hq-card-wrapper {
+    text-align: center;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    gap: 5rem;
+  }
+  .about-hq .about-hq-card-wrapper .about-hq-card {
+    max-width: 21.7rem;
+  }
+  .about-hq .about-hq-card-wrapper .about-hq-card .about-hq-card-title {
+    font-family: "Fraunces", serif;
+    font-size: 1.5rem;
+    line-height: 32px;
+    font-size: 1.75rem;
+    color: hsl(216, 17%, 21%);
+    padding-top: 2rem;
+    width: 100%;
+  }
+  .about-hq .about-hq-card-wrapper .about-hq-card .about-hq-card-body {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    color: hsl(216, 17%, 21%);
+    padding-top: 2rem;
+  }
+  .about-hq .about-hq-card-wrapper .about-hq-card img {
+    width: 25%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .plan-banner {
+    max-width: 55rem;
+    margin: 0 5rem;
+    height: 28.125rem;
+    margin-bottom: 10rem;
+    background: url("src/assets/plan/desktop/image-hero-blackcup.jpg");
+    border-radius: 6px;
+  }
+  .plan-banner .plan-banner-wrapper {
+    max-width: 33rem;
+    padding-top: 7rem;
+    padding-left: 5rem;
+  }
+  .plan-banner .plan-banner-wrapper .plan-banner-title {
+    font-family: "Fraunces", serif;
+    font-size: 4.5rem;
+    letter-spacing: -0.5px;
+    line-height: 72px;
+    color: hsl(43, 78%, 98%);
+  }
+  .plan-banner .plan-banner-wrapper .plan-banner-body {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    color: hsl(43, 78%, 98%);
+    padding-top: 2rem;
+  }
+  .plan-sec-one {
+    max-width: 55rem;
+    margin: 0 5rem;
+    height: 40.8rem;
+    border-radius: 6px;
+    background: url("src/assets/plan/desktop/bg-steps.png");
+  }
+  .plan-sec-one .plan-how-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: start;
+    padding-left: 3rem;
+    padding-top: 5rem;
+  }
+  .plan-sec-one .plan-how-wrapper #third-line {
+    border: none;
+  }
+  .plan-sec-one .plan-how-wrapper .plan-how-card {
+    max-width: auto;
+    border-top: 2px solid hsl(25, 94%, 86%);
+    padding-top: 5rem;
+    position: relative;
+  }
+  .plan-sec-one .plan-how-wrapper .plan-how-card::before {
+    content: "";
+    top: -1rem;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid hsl(179, 81%, 29%);
+    background-color: hsl(216, 17%, 21%);
+  }
+  .plan-sec-one .plan-how-wrapper .plan-how-card .plan-how-number {
+    font-family: "Fraunces", serif;
+    font-size: 4.5rem;
+    letter-spacing: -0.5px;
+    line-height: 72px;
+    color: hsl(25, 94%, 86%);
+  }
+  .plan-sec-one .plan-how-wrapper .plan-how-card .plan-how-step {
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    line-height: 40px;
+    color: hsl(43, 78%, 98%);
+    padding-top: 2.5rem;
+    max-width: 15rem;
+  }
+  .plan-sec-one .plan-how-wrapper .plan-how-card .plan-how-description {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    color: hsl(43, 78%, 98%);
+    padding-top: 3rem;
+    max-width: 15rem;
+  }
+  .plan-sec-two {
+    max-width: 55rem;
+    margin: 0 5rem;
+    margin-top: 10rem;
+    margin-bottom: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .plan-sec-two .plan-menu {
+    display: none;
+    cursor: pointer;
+  }
+  .plan-sec-two .plan-menu ul #menu-first {
+    padding-top: 0;
+  }
+  .plan-sec-two .plan-menu ul #menu-fifth {
+    border-bottom: none;
+  }
+  .plan-sec-two .plan-menu ul li {
+    font-family: "Fraunces", serif;
+    font-size: 1.5rem;
+    line-height: 32px;
+    list-style: none;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    border-bottom: 1px solid #83888f;
+  }
+  .plan-sec-two .plan-menu ul li:hover {
+    opacity: 0.5;
+  }
+  .plan-sec-two .plan-menu ul li .li-number {
+    padding-right: 2rem;
+    opacity: 0.3;
+    color: hsl(216, 17%, 21%);
+  }
+  .plan-sec-two .plan-menu ul li .li-body {
+    opacity: 0.5;
+    color: hsl(216, 17%, 21%);
+    padding-right: -1rem;
+  }
+  .plan-sec-two-right {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+  .plan-sec-two-right .accordion-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 4rem;
+    cursor: pointer;
+  }
+  .plan-sec-two-right .accordion-header h1 {
+    font-family: "Fraunces", serif;
+    font-size: 2.5rem;
+    line-height: 48px;
+    color: #83888f;
+  }
+  .plan-sec-two-right .accordion-header img {
+    transform: rotate(180deg);
+    transition: 0.2s;
+  }
+  .accordion-body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: -1rem;
+    margin-bottom: 5rem;
+  }
+  .accordion-body .label {
+    border-radius: 8px;
+    background-color: #f4f1eb;
+    cursor: pointer;
+    height: 15.625rem;
+  }
+  .accordion-body .label:hover {
+    background-color: hsl(25, 94%, 86%);
+    transition: 0.2s;
+  }
+  .accordion-body .label .radio {
+    display: none;
+  }
+  .accordion-body .label .radio:checked + .label-wrapper {
+    background-color: hsl(179, 81%, 29%);
+  }
+  .accordion-body .label .radio:checked + .label-wrapper .label-title {
+    color: hsl(43, 78%, 98%);
+  }
+  .accordion-body .label .radio:checked + .label-wrapper .label-description {
+    color: hsl(43, 78%, 98%);
+  }
+  .accordion-body .label .label-wrapper {
+    height: 100%;
+    border-radius: 8px;
+    padding: 2rem 2rem 4rem 2rem;
+  }
+  .accordion-body .label .label-title {
+    font-family: "Fraunces", serif;
+    font-size: 1.5rem;
+    line-height: 32px;
+    color: hsl(216, 17%, 21%);
+  }
+  .accordion-body .label .label-description {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    color: hsl(216, 17%, 21%);
+    padding-top: 1rem;
+  }
+  .button-primary-activated {
+    font-family: "Fraunces", serif;
+    font-size: 1.25rem;
+    line-height: 25px;
+    background-color: hsl(179, 81%, 29%);
+    color: hsl(43, 78%, 98%);
+    border: none;
+    padding: 1.25rem 2.25rem;
+    border-radius: 6px;
+    margin-top: 4rem;
+    cursor: pointer;
+    margin-top: 3rem;
+    align-self: flex-end;
+  }
+  .button-primary-activated:hover {
+    background-color: hsl(179, 55%, 61%);
+    transition: 0.2s;
+  }
+  .button-primary-activated:disabled {
+    font-family: "Fraunces", serif;
+    font-size: 1.25rem;
+    line-height: 25px;
+    background-color: hsl(179, 81%, 29%);
+    color: hsl(43, 78%, 98%);
+    border: none;
+    padding: 1.25rem 2.25rem;
+    border-radius: 6px;
+    margin-top: 4rem;
+    cursor: pointer;
+    background-color: hsl(25, 11%, 87%);
+    margin-top: 3rem;
+    align-self: flex-end;
+  }
+  .button-primary-activated:disabled:hover {
+    background-color: hsl(179, 55%, 61%);
+    transition: 0.2s;
+  }
+  .order-summary-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .order-summary-wrapper .order-summary {
+    background-color: hsl(216, 17%, 21%);
+    padding: 2.5rem 3rem 3rem 3rem;
+    border-radius: 6px;
+  }
+  .order-summary-wrapper .order-summary .order-summary-title {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    color: hsl(215, 5%, 54%);
+    text-transform: uppercase;
+  }
+  .order-summary-wrapper .order-summary .order-summary-body {
+    font-family: "Fraunces", serif;
+    font-size: 1.5rem;
+    line-height: 32px;
+    color: hsl(43, 78%, 98%);
+    padding-top: 1rem;
+  }
+  .order-summary-wrapper .order-summary .order-selection {
+    color: hsl(179, 81%, 29%);
+  }
+  .plan-sec-two-left .plan-menu .li-selected .li-number {
+    opacity: 1;
+    color: hsl(179, 81%, 29%);
+  }
+  .plan-sec-two-left .plan-menu .li-selected .li-body {
+    opacity: 1;
+  }
+  .hidden .accordion-header img {
+    transform: rotate(0);
+    transition: 0.2s;
+  }
+  .hidden .accordion-body {
+    display: none;
+  }
+  .disabled .accordion-body {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .plan-banner {
+    max-width: 48rem;
+    margin: 0 2.5rem;
+    height: 28.125rem;
+    margin-bottom: 10rem;
+    background: url("src/assets/plan/tablet/image-hero-blackcup.jpg");
+    border-radius: 6px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .plan-banner .plan-banner-wrapper {
+    max-width: 33rem;
+    padding-top: 5rem;
+    padding-left: 3rem;
+  }
+  .plan-banner .plan-banner-wrapper .plan-banner-title {
+    font-family: "Fraunces", serif;
+    font-size: 4.5rem;
+    letter-spacing: -0.5px;
+    line-height: 72px;
+    font-size: 3rem;
+    color: hsl(43, 78%, 98%);
+  }
+  .plan-banner .plan-banner-wrapper .plan-banner-body {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(43, 78%, 98%);
+    padding-top: 2rem;
+    max-width: 24rem;
+  }
+  .plan-sec-one {
+    max-width: 48rem;
+    margin: 0;
+    height: 40.8rem;
+    border-radius: 6px;
+    background: url("src/assets/plan/tablet/bg-steps.png");
+  }
+  .plan-sec-one .plan-how-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: start;
+    padding-left: 2rem;
+    padding-top: 5rem;
+  }
+  .plan-sec-one .plan-how-wrapper #third-line {
+    border: none;
+  }
+  .plan-sec-one .plan-how-wrapper .plan-how-card {
+    max-width: auto;
+    border-top: 2px solid hsl(25, 94%, 86%);
+    padding-top: 5rem;
+    position: relative;
+  }
+  .plan-sec-one .plan-how-wrapper .plan-how-card::before {
+    content: "";
+    top: -1rem;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid hsl(179, 81%, 29%);
+    background-color: hsl(216, 17%, 21%);
+  }
+  .plan-sec-one .plan-how-wrapper .plan-how-card .plan-how-number {
+    font-family: "Fraunces", serif;
+    font-size: 4.5rem;
+    letter-spacing: -0.5px;
+    line-height: 72px;
+    color: hsl(25, 94%, 86%);
+  }
+  .plan-sec-one .plan-how-wrapper .plan-how-card .plan-how-step {
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    line-height: 40px;
+    font-size: 1.75rem;
+    color: hsl(43, 78%, 98%);
+    padding-top: 2.5rem;
+    max-width: 14rem;
+  }
+  .plan-sec-one .plan-how-wrapper .plan-how-card .plan-how-description {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(43, 78%, 98%);
+    padding-top: 2rem;
+    max-width: 14rem;
+  }
+  .plan-sec-two {
+    max-width: 55rem;
+    margin: 0 5rem;
+    margin-top: 10rem;
+    margin-bottom: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .plan-sec-two .plan-menu {
+    display: none;
+    cursor: pointer;
+  }
+  .plan-sec-two .plan-menu ul #menu-first {
+    padding-top: 0;
+  }
+  .plan-sec-two .plan-menu ul #menu-fifth {
+    border-bottom: none;
+  }
+  .plan-sec-two .plan-menu ul li {
+    font-family: "Fraunces", serif;
+    font-size: 1.5rem;
+    line-height: 32px;
+    list-style: none;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    border-bottom: 1px solid #83888f;
+  }
+  .plan-sec-two .plan-menu ul li:hover {
+    opacity: 0.5;
+  }
+  .plan-sec-two .plan-menu ul li .li-number {
+    padding-right: 2rem;
+    opacity: 0.3;
+    color: hsl(216, 17%, 21%);
+  }
+  .plan-sec-two .plan-menu ul li .li-body {
+    opacity: 0.5;
+    color: hsl(216, 17%, 21%);
+    padding-right: -1rem;
+  }
+  .plan-sec-two-right {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+  .plan-sec-two-right .accordion-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 4rem;
+    cursor: pointer;
+  }
+  .plan-sec-two-right .accordion-header h1 {
+    font-family: "Fraunces", serif;
+    font-size: 2.5rem;
+    line-height: 48px;
+    color: #83888f;
+  }
+  .plan-sec-two-right .accordion-header img {
+    transform: rotate(180deg);
+    transition: 0.2s;
+  }
+  .accordion-body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: -1rem;
+    margin-bottom: 5rem;
+  }
+  .accordion-body .label {
+    border-radius: 8px;
+    background-color: #f4f1eb;
+    cursor: pointer;
+    height: 15.625rem;
+  }
+  .accordion-body .label:hover {
+    background-color: hsl(25, 94%, 86%);
+    transition: 0.2s;
+  }
+  .accordion-body .label .radio {
+    display: none;
+  }
+  .accordion-body .label .radio:checked + .label-wrapper {
+    background-color: hsl(179, 81%, 29%);
+  }
+  .accordion-body .label .radio:checked + .label-wrapper .label-title {
+    color: hsl(43, 78%, 98%);
+  }
+  .accordion-body .label .radio:checked + .label-wrapper .label-description {
+    color: hsl(43, 78%, 98%);
+  }
+  .accordion-body .label .label-wrapper {
+    height: 100%;
+    border-radius: 8px;
+    padding: 2rem 2rem 4rem 2rem;
+  }
+  .accordion-body .label .label-title {
+    font-family: "Fraunces", serif;
+    font-size: 1.5rem;
+    line-height: 32px;
+    color: hsl(216, 17%, 21%);
+  }
+  .accordion-body .label .label-description {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    color: hsl(216, 17%, 21%);
+    padding-top: 1rem;
+  }
+  .button-primary-activated {
+    font-family: "Fraunces", serif;
+    font-size: 1.25rem;
+    line-height: 25px;
+    background-color: hsl(179, 81%, 29%);
+    color: hsl(43, 78%, 98%);
+    border: none;
+    padding: 1.25rem 2.25rem;
+    border-radius: 6px;
+    margin-top: 4rem;
+    cursor: pointer;
+    margin-top: 3rem;
+    align-self: flex-end;
+  }
+  .button-primary-activated:hover {
+    background-color: hsl(179, 55%, 61%);
+    transition: 0.2s;
+  }
+  .button-primary-activated:disabled {
+    font-family: "Fraunces", serif;
+    font-size: 1.25rem;
+    line-height: 25px;
+    background-color: hsl(179, 81%, 29%);
+    color: hsl(43, 78%, 98%);
+    border: none;
+    padding: 1.25rem 2.25rem;
+    border-radius: 6px;
+    margin-top: 4rem;
+    cursor: pointer;
+    background-color: hsl(25, 11%, 87%);
+    margin-top: 3rem;
+    align-self: flex-end;
+  }
+  .button-primary-activated:disabled:hover {
+    background-color: hsl(179, 55%, 61%);
+    transition: 0.2s;
+  }
+  .order-summary-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .order-summary-wrapper .order-summary {
+    background-color: hsl(216, 17%, 21%);
+    padding: 2.5rem 3rem 3rem 3rem;
+    border-radius: 6px;
+  }
+  .order-summary-wrapper .order-summary .order-summary-title {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    color: hsl(215, 5%, 54%);
+    text-transform: uppercase;
+  }
+  .order-summary-wrapper .order-summary .order-summary-body {
+    font-family: "Fraunces", serif;
+    font-size: 1.5rem;
+    line-height: 32px;
+    color: hsl(43, 78%, 98%);
+    padding-top: 1rem;
+  }
+  .order-summary-wrapper .order-summary .order-selection {
+    color: hsl(179, 81%, 29%);
+  }
+  .plan-sec-two-left .plan-menu .li-selected .li-number {
+    opacity: 1;
+    color: hsl(179, 81%, 29%);
+  }
+  .plan-sec-two-left .plan-menu .li-selected .li-body {
+    opacity: 1;
+  }
+  .hidden .accordion-header img {
+    transform: rotate(0);
+    transition: 0.2s;
+  }
+  .hidden .accordion-body {
+    display: none;
+  }
+  .disabled .accordion-body {
+    display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  .plan-banner {
+    max-width: 36rem;
+    margin: 0 2rem;
+    height: 400px;
+    margin-bottom: 10rem;
+    background: url("src/assets/plan/mobile/image-hero-blackcup.jpg");
+    border-radius: 6px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .plan-banner .plan-banner-wrapper {
+    max-width: 100%;
+    padding-top: 5rem;
+    padding-left: 0;
+    text-align: center;
+  }
+  .plan-banner .plan-banner-wrapper .plan-banner-title {
+    font-family: "Fraunces", serif;
+    font-size: 2.5rem;
+    line-height: 48px;
+    font-size: 3rem;
+    color: hsl(43, 78%, 98%);
+  }
+  .plan-banner .plan-banner-wrapper .plan-banner-body {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(43, 78%, 98%);
+    padding: 2rem 3rem 0 3rem;
+    max-width: 100%;
+  }
+  .plan-sec-one {
+    max-width: 36rem;
+    margin: 0 2rem;
+    height: auto;
+    border-radius: 6px;
+    background: url("src/assets/plan/mobile/bg-steps.png");
+    background-size: cover;
+  }
+  .plan-sec-one .plan-how-wrapper {
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: repeat(3, 1fr);
+    align-items: start;
+    padding-left: 0;
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+    justify-content: center;
+  }
+  .plan-sec-one .plan-how-wrapper #third-line {
+    border: none;
+  }
+  .plan-sec-one .plan-how-wrapper .plan-how-card {
+    max-width: 100%;
+    margin: 0 2rem;
+    border-top: none;
+    padding-top: 3rem;
+    position: relative;
+    text-align: center;
+  }
+  .plan-sec-one .plan-how-wrapper .plan-how-card::before {
+    display: none;
+    content: "";
+    top: -1rem;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid hsl(179, 81%, 29%);
+    background-color: hsl(216, 17%, 21%);
+  }
+  .plan-sec-one .plan-how-wrapper .plan-how-card .plan-how-number {
+    font-family: "Fraunces", serif;
+    font-size: 4.5rem;
+    letter-spacing: -0.5px;
+    line-height: 72px;
+    color: hsl(25, 94%, 86%);
+  }
+  .plan-sec-one .plan-how-wrapper .plan-how-card .plan-how-step {
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    line-height: 40px;
+    font-size: 1.75rem;
+    color: hsl(43, 78%, 98%);
+    padding-top: 2.5rem;
+    max-width: 100%;
+  }
+  .plan-sec-one .plan-how-wrapper .plan-how-card .plan-how-description {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(43, 78%, 98%);
+    padding-top: 2rem;
+    max-width: 100%;
+  }
+  .plan-sec-two {
+    max-width: 36rem;
+    margin: 0 2rem;
+    margin-top: 10rem;
+    margin-bottom: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .plan-sec-two .plan-menu {
+    display: none;
+    cursor: pointer;
+  }
+  .plan-sec-two .plan-menu ul #menu-first {
+    padding-top: 0;
+  }
+  .plan-sec-two .plan-menu ul #menu-fifth {
+    border-bottom: none;
+  }
+  .plan-sec-two .plan-menu ul li {
+    font-family: "Fraunces", serif;
+    font-size: 1.5rem;
+    line-height: 32px;
+    list-style: none;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    border-bottom: 1px solid #83888f;
+  }
+  .plan-sec-two .plan-menu ul li:hover {
+    opacity: 0.5;
+  }
+  .plan-sec-two .plan-menu ul li .li-number {
+    padding-right: 2rem;
+    opacity: 0.3;
+    color: hsl(216, 17%, 21%);
+  }
+  .plan-sec-two .plan-menu ul li .li-body {
+    opacity: 0.5;
+    color: hsl(216, 17%, 21%);
+    padding-right: -1rem;
+  }
+  .plan-sec-two-right {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+  .plan-sec-two-right .accordion-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 4rem;
+    cursor: pointer;
+  }
+  .plan-sec-two-right .accordion-header h1 {
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    line-height: 40px;
+    color: #83888f;
+  }
+  .plan-sec-two-right .accordion-header img {
+    transform: rotate(180deg);
+    transition: 0.2s;
+  }
+  .accordion-body {
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: -1rem;
+    margin-bottom: 5rem;
+  }
+  .accordion-body .label {
+    border-radius: 8px;
+    background-color: #f4f1eb;
+    cursor: pointer;
+    height: 160px;
+  }
+  .accordion-body .label:hover {
+    background-color: hsl(25, 94%, 86%);
+    transition: 0.2s;
+  }
+  .accordion-body .label .radio {
+    display: none;
+  }
+  .accordion-body .label .radio:checked + .label-wrapper {
+    background-color: hsl(179, 81%, 29%);
+  }
+  .accordion-body .label .radio:checked + .label-wrapper .label-title {
+    color: hsl(43, 78%, 98%);
+  }
+  .accordion-body .label .radio:checked + .label-wrapper .label-description {
+    color: hsl(43, 78%, 98%);
+  }
+  .accordion-body .label .label-wrapper {
+    height: 100%;
+    border-radius: 8px;
+    padding: 1.5rem;
+  }
+  .accordion-body .label .label-title {
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    line-height: 40px;
+    color: hsl(216, 17%, 21%);
+  }
+  .accordion-body .label .label-description {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    color: hsl(216, 17%, 21%);
+    padding-top: 1rem;
+  }
+  .button-primary-activated {
+    font-family: "Fraunces", serif;
+    font-size: 1.25rem;
+    line-height: 25px;
+    background-color: hsl(179, 81%, 29%);
+    color: hsl(43, 78%, 98%);
+    border: none;
+    padding: 1.25rem 2.25rem;
+    border-radius: 6px;
+    margin-top: 4rem;
+    cursor: pointer;
+    margin-top: 3rem;
+    align-self: center;
+  }
+  .button-primary-activated:hover {
+    background-color: hsl(179, 55%, 61%);
+    transition: 0.2s;
+  }
+  .button-primary-activated:disabled {
+    font-family: "Fraunces", serif;
+    font-size: 1.25rem;
+    line-height: 25px;
+    background-color: hsl(179, 81%, 29%);
+    color: hsl(43, 78%, 98%);
+    border: none;
+    padding: 1.25rem 2.25rem;
+    border-radius: 6px;
+    margin-top: 4rem;
+    cursor: pointer;
+    background-color: hsl(25, 11%, 87%);
+    margin-top: 3rem;
+    align-self: center;
+  }
+  .button-primary-activated:disabled:hover {
+    background-color: hsl(179, 55%, 61%);
+    transition: 0.2s;
+  }
+  .order-summary-wrapper {
+    max-width: 36rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .order-summary-wrapper .order-summary {
+    background-color: hsl(216, 17%, 21%);
+    padding: 2.5rem 3rem 3rem 3rem;
+    border-radius: 6px;
+  }
+  .order-summary-wrapper .order-summary .order-summary-title {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    color: hsl(215, 5%, 54%);
+    text-transform: uppercase;
+  }
+  .order-summary-wrapper .order-summary .order-summary-body {
+    font-family: "Fraunces", serif;
+    font-size: 1.5rem;
+    line-height: 32px;
+    color: hsl(43, 78%, 98%);
+    padding-top: 1rem;
+  }
+  .order-summary-wrapper .order-summary .order-selection {
+    color: hsl(179, 81%, 29%);
+  }
+  .plan-sec-two-left .plan-menu .li-selected .li-number {
+    opacity: 1;
+    color: hsl(179, 81%, 29%);
+  }
+  .plan-sec-two-left .plan-menu .li-selected .li-body {
+    opacity: 1;
+  }
+  .hidden .accordion-header img {
+    transform: rotate(0);
+    transition: 0.2s;
+  }
+  .hidden .accordion-body {
+    display: none;
+  }
+  .disabled .accordion-body {
+    display: none;
+  }
+}
+@media screen and (max-width: 374px) {
+  .plan-banner {
+    max-width: 23.375rem;
+    margin: 0 1rem;
+    height: 400px;
+    margin-bottom: 10rem;
+    background: url("src/assets/plan/mobile/image-hero-blackcup.jpg");
+    border-radius: 6px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .plan-banner .plan-banner-wrapper {
+    max-width: 100%;
+    padding-top: 6rem;
+    padding-left: 0;
+    text-align: center;
+  }
+  .plan-banner .plan-banner-wrapper .plan-banner-title {
+    font-family: "Fraunces", serif;
+    font-size: 2.5rem;
+    line-height: 48px;
+    color: hsl(43, 78%, 98%);
+  }
+  .plan-banner .plan-banner-wrapper .plan-banner-body {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(43, 78%, 98%);
+    padding: 2rem 1.5rem 0 1.5rem;
+    max-width: 100%;
+  }
+  .plan-sec-one {
+    max-width: 23.375rem;
+    margin: 0;
+    height: auto;
+    border-radius: 6px;
+    background: url("src/assets/plan/mobile/bg-steps.png");
+    background-size: cover;
+  }
+  .plan-sec-one .plan-how-wrapper {
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: repeat(3, 1fr);
+    align-items: start;
+    padding-left: 0;
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+    justify-content: center;
+  }
+  .plan-sec-one .plan-how-wrapper #third-line {
+    border: none;
+  }
+  .plan-sec-one .plan-how-wrapper .plan-how-card {
+    max-width: 100%;
+    margin: 0 1rem;
+    border-top: none;
+    padding-top: 3rem;
+    position: relative;
+    text-align: center;
+  }
+  .plan-sec-one .plan-how-wrapper .plan-how-card::before {
+    display: none;
+    content: "";
+    top: -1rem;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid hsl(179, 81%, 29%);
+    background-color: hsl(216, 17%, 21%);
+  }
+  .plan-sec-one .plan-how-wrapper .plan-how-card .plan-how-number {
+    font-family: "Fraunces", serif;
+    font-size: 4.5rem;
+    letter-spacing: -0.5px;
+    line-height: 72px;
+    color: hsl(25, 94%, 86%);
+  }
+  .plan-sec-one .plan-how-wrapper .plan-how-card .plan-how-step {
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    line-height: 40px;
+    font-size: 1.75rem;
+    color: hsl(43, 78%, 98%);
+    padding-top: 2.5rem;
+    max-width: 100%;
+  }
+  .plan-sec-one .plan-how-wrapper .plan-how-card .plan-how-description {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(43, 78%, 98%);
+    padding-top: 2rem;
+    max-width: 100%;
+  }
+  .plan-sec-two {
+    max-width: 23.375rem;
+    margin: 0 1rem;
+    margin-top: 10rem;
+    margin-bottom: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .plan-sec-two .plan-menu {
+    display: none;
+    cursor: pointer;
+  }
+  .plan-sec-two .plan-menu ul #menu-first {
+    padding-top: 0;
+  }
+  .plan-sec-two .plan-menu ul #menu-fifth {
+    border-bottom: none;
+  }
+  .plan-sec-two .plan-menu ul li {
+    font-family: "Fraunces", serif;
+    font-size: 1.5rem;
+    line-height: 32px;
+    list-style: none;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    border-bottom: 1px solid #83888f;
+  }
+  .plan-sec-two .plan-menu ul li:hover {
+    opacity: 0.5;
+  }
+  .plan-sec-two .plan-menu ul li .li-number {
+    padding-right: 2rem;
+    opacity: 0.3;
+    color: hsl(216, 17%, 21%);
+  }
+  .plan-sec-two .plan-menu ul li .li-body {
+    opacity: 0.5;
+    color: hsl(216, 17%, 21%);
+    padding-right: -1rem;
+  }
+  .plan-sec-two-right {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+  .plan-sec-two-right .accordion-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 4rem;
+    cursor: pointer;
+  }
+  .plan-sec-two-right .accordion-header h1 {
+    font-family: "Fraunces", serif;
+    font-size: 1.5rem;
+    line-height: 32px;
+    color: #83888f;
+    padding-right: 4rem;
+  }
+  .plan-sec-two-right .accordion-header img {
+    transform: rotate(180deg);
+    transition: 0.2s;
+  }
+  .accordion-body {
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: -1rem;
+    margin-bottom: 5rem;
+  }
+  .accordion-body .label {
+    border-radius: 8px;
+    background-color: #f4f1eb;
+    cursor: pointer;
+    height: 160px;
+  }
+  .accordion-body .label:hover {
+    background-color: hsl(25, 94%, 86%);
+    transition: 0.2s;
+  }
+  .accordion-body .label .radio {
+    display: none;
+  }
+  .accordion-body .label .radio:checked + .label-wrapper {
+    background-color: hsl(179, 81%, 29%);
+  }
+  .accordion-body .label .radio:checked + .label-wrapper .label-title {
+    color: hsl(43, 78%, 98%);
+  }
+  .accordion-body .label .radio:checked + .label-wrapper .label-description {
+    color: hsl(43, 78%, 98%);
+  }
+  .accordion-body .label .label-wrapper {
+    height: 100%;
+    border-radius: 8px;
+    padding: 1.5rem;
+  }
+  .accordion-body .label .label-title {
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    line-height: 40px;
+    color: hsl(216, 17%, 21%);
+  }
+  .accordion-body .label .label-description {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    color: hsl(216, 17%, 21%);
+    padding-top: 1rem;
+  }
+  .button-primary-activated {
+    font-family: "Fraunces", serif;
+    font-size: 1.25rem;
+    line-height: 25px;
+    background-color: hsl(179, 81%, 29%);
+    color: hsl(43, 78%, 98%);
+    border: none;
+    padding: 1.25rem 2.25rem;
+    border-radius: 6px;
+    margin-top: 4rem;
+    cursor: pointer;
+    margin-top: 3rem;
+    align-self: center;
+  }
+  .button-primary-activated:hover {
+    background-color: hsl(179, 55%, 61%);
+    transition: 0.2s;
+  }
+  .button-primary-activated:disabled {
+    font-family: "Fraunces", serif;
+    font-size: 1.25rem;
+    line-height: 25px;
+    background-color: hsl(179, 81%, 29%);
+    color: hsl(43, 78%, 98%);
+    border: none;
+    padding: 1.25rem 2.25rem;
+    border-radius: 6px;
+    margin-top: 4rem;
+    cursor: pointer;
+    background-color: hsl(25, 11%, 87%);
+    margin-top: 3rem;
+    align-self: center;
+  }
+  .button-primary-activated:disabled:hover {
+    background-color: hsl(179, 55%, 61%);
+    transition: 0.2s;
+  }
+  .order-summary-wrapper {
+    max-width: 36rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .order-summary-wrapper .order-summary {
+    background-color: hsl(216, 17%, 21%);
+    padding: 2.5rem 3rem 3rem 3rem;
+    border-radius: 6px;
+  }
+  .order-summary-wrapper .order-summary .order-summary-title {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    color: hsl(215, 5%, 54%);
+    text-transform: uppercase;
+  }
+  .order-summary-wrapper .order-summary .order-summary-body {
+    font-family: "Fraunces", serif;
+    font-size: 1.5rem;
+    line-height: 32px;
+    color: hsl(43, 78%, 98%);
+    padding-top: 1rem;
+  }
+  .order-summary-wrapper .order-summary .order-selection {
+    color: hsl(179, 81%, 29%);
+  }
+  .plan-sec-two-left .plan-menu .li-selected .li-number {
+    opacity: 1;
+    color: hsl(179, 81%, 29%);
+  }
+  .plan-sec-two-left .plan-menu .li-selected .li-body {
+    opacity: 1;
+  }
+  .hidden .accordion-header img {
+    transform: rotate(0);
+    transition: 0.2s;
+  }
+  .hidden .accordion-body {
+    display: none;
+  }
+  .disabled .accordion-body {
+    display: none;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 90rem;
+  min-height: 100vh;
+  margin: auto;
+  background-color: hsl(43, 78%, 98%);
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: hsla(0, 0%, 0%, 0.5);
+  z-index: 999;
+}
+.modal .modal-wrapper {
+  width: 35rem;
+  margin-top: 120px;
+  opacity: 1;
+}
+.modal .modal-wrapper .modal-title {
+  font-family: "Fraunces", serif;
+  font-size: 2.5rem;
+  line-height: 48px;
+  color: hsl(43, 78%, 98%);
+  background-color: hsl(216, 17%, 21%);
+  padding: 2.75rem 3.25rem;
+  border-radius: 6px 6px 0 0;
+}
+.modal .modal-wrapper .modal-body {
+  background-color: hsl(43, 78%, 98%);
+  padding: 2.5rem 3.25rem;
+}
+.modal .modal-wrapper .modal-body .modal-body-summary {
+  font-family: "Fraunces", serif;
+  font-size: 1.5rem;
+  line-height: 32px;
+  color: #83888f;
+  padding-top: 1rem;
+  line-height: 2.5rem;
+}
+.modal .modal-wrapper .modal-body .modal-selection {
+  color: hsl(179, 81%, 29%);
+}
+.modal .modal-wrapper .modal-body .modal-confirm {
+  font-family: "Barlow", sans-serif;
+  font-size: 1rem;
+  line-height: 26px;
+  font-weight: 400;
+  color: hsl(216, 17%, 21%);
+  opacity: 0.8;
+  padding-top: 1rem;
+}
+.modal .modal-wrapper .modal-footer {
+  background-color: hsl(43, 78%, 98%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 3.25rem 4rem 3.25rem;
+  border-radius: 0 0 6px 6px;
+}
+.modal .modal-wrapper .modal-footer .modal-price {
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  line-height: 40px;
+}
+.modal .modal-wrapper .modal-footer .button-checkout {
+  font-family: "Fraunces", serif;
+  font-size: 1.25rem;
+  line-height: 25px;
+  background-color: hsl(179, 81%, 29%);
+  color: hsl(43, 78%, 98%);
+  border: none;
+  padding: 1.25rem 2.25rem;
+  border-radius: 6px;
+  margin-top: 4rem;
+  cursor: pointer;
+  margin: 0;
+  padding: 1rem 4rem;
+}
+.modal .modal-wrapper .modal-footer .button-checkout:hover {
+  background-color: hsl(179, 55%, 61%);
+  transition: 0.2s;
+}
+
+@media screen and (max-width: 768px) {
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    z-index: 999;
+  }
+  .modal .modal-wrapper {
+    width: 32rem;
+    margin-top: 120px;
+    opacity: 1;
+  }
+  .modal .modal-wrapper .modal-title {
+    font-family: "Fraunces", serif;
+    font-size: 2.5rem;
+    line-height: 48px;
+    color: hsl(43, 78%, 98%);
+    background-color: hsl(216, 17%, 21%);
+    padding: 2.75rem 3.25rem;
+    border-radius: 6px 6px 0 0;
+  }
+  .modal .modal-wrapper .modal-body {
+    background-color: hsl(43, 78%, 98%);
+    padding: 2.5rem 3.25rem;
+  }
+  .modal .modal-wrapper .modal-body .modal-body-summary {
+    font-family: "Fraunces", serif;
+    font-size: 1.5rem;
+    line-height: 32px;
+    color: #83888f;
+    padding-top: 1rem;
+    line-height: 2.5rem;
+  }
+  .modal .modal-wrapper .modal-body .modal-selection {
+    color: hsl(179, 81%, 29%);
+  }
+  .modal .modal-wrapper .modal-body .modal-confirm {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    color: hsl(216, 17%, 21%);
+    opacity: 0.8;
+    padding-top: 1rem;
+  }
+  .modal .modal-wrapper .modal-footer {
+    background-color: hsl(43, 78%, 98%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 3.25rem 4rem 3.25rem;
+    border-radius: 0 0 6px 6px;
+  }
+  .modal .modal-wrapper .modal-footer .modal-price {
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    line-height: 40px;
+  }
+  .modal .modal-wrapper .modal-footer .button-checkout {
+    font-family: "Fraunces", serif;
+    font-size: 1.25rem;
+    line-height: 25px;
+    background-color: hsl(179, 81%, 29%);
+    color: hsl(43, 78%, 98%);
+    border: none;
+    padding: 1.25rem 2.25rem;
+    border-radius: 6px;
+    margin-top: 4rem;
+    cursor: pointer;
+    margin: 0;
+    padding: 1rem 3rem;
+  }
+  .modal .modal-wrapper .modal-footer .button-checkout:hover {
+    background-color: hsl(179, 55%, 61%);
+    transition: 0.2s;
+  }
+}
+@media screen and (max-width: 576px) {
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    z-index: 999;
+  }
+  .modal .modal-wrapper {
+    width: 25rem;
+    margin-top: 120px;
+    opacity: 1;
+  }
+  .modal .modal-wrapper .modal-title {
+    font-family: "Fraunces", serif;
+    font-size: 2.5rem;
+    line-height: 48px;
+    font-size: 1.75rem;
+    color: hsl(43, 78%, 98%);
+    background-color: hsl(216, 17%, 21%);
+    padding: 1.5rem 2rem;
+    border-radius: 6px 6px 0 0;
+  }
+  .modal .modal-wrapper .modal-body {
+    background-color: hsl(43, 78%, 98%);
+    padding: 1.5rem 2rem;
+    padding: 2.5rem 2rem;
+  }
+  .modal .modal-wrapper .modal-body .modal-body-summary {
+    font-family: "Fraunces", serif;
+    font-size: 1.5rem;
+    line-height: 32px;
+    color: #83888f;
+    padding-top: 1rem;
+    line-height: 2.5rem;
+  }
+  .modal .modal-wrapper .modal-body .modal-selection {
+    color: hsl(179, 81%, 29%);
+  }
+  .modal .modal-wrapper .modal-body .modal-confirm {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    color: hsl(216, 17%, 21%);
+    opacity: 0.8;
+    padding-top: 1rem;
+  }
+  .modal .modal-wrapper .modal-footer {
+    background-color: hsl(43, 78%, 98%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 3.25rem 4rem 3.25rem;
+    border-radius: 0 0 6px 6px;
+  }
+  .modal .modal-wrapper .modal-footer .modal-price {
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    line-height: 40px;
+  }
+  .modal .modal-wrapper .modal-footer .button-checkout {
+    font-family: "Fraunces", serif;
+    font-size: 1.25rem;
+    line-height: 25px;
+    background-color: hsl(179, 81%, 29%);
+    color: hsl(43, 78%, 98%);
+    border: none;
+    padding: 1.25rem 2.25rem;
+    border-radius: 6px;
+    margin-top: 4rem;
+    cursor: pointer;
+    margin: 0;
+    padding: 1rem 2rem;
+  }
+  .modal .modal-wrapper .modal-footer .button-checkout:hover {
+    background-color: hsl(179, 55%, 61%);
+    transition: 0.2s;
+  }
+}
+@media screen and (max-width: 374px) {
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    z-index: 999;
+  }
+  .modal .modal-wrapper {
+    width: 20.4rem;
+    margin-top: 120px;
+    opacity: 1;
+  }
+  .modal .modal-wrapper .modal-title {
+    font-family: "Fraunces", serif;
+    font-size: 2.5rem;
+    line-height: 48px;
+    font-size: 1.75rem;
+    color: hsl(43, 78%, 98%);
+    background-color: hsl(216, 17%, 21%);
+    padding: 1.5rem 2rem;
+    border-radius: 6px 6px 0 0;
+  }
+  .modal .modal-wrapper .modal-body {
+    background-color: hsl(43, 78%, 98%);
+    padding: 1.5rem 1.5rem;
+  }
+  .modal .modal-wrapper .modal-body .modal-body-summary {
+    font-family: "Fraunces", serif;
+    font-size: 1.5rem;
+    line-height: 32px;
+    color: #83888f;
+    padding-top: 1rem;
+    line-height: 2.5rem;
+  }
+  .modal .modal-wrapper .modal-body .modal-selection {
+    color: hsl(179, 81%, 29%);
+  }
+  .modal .modal-wrapper .modal-body .modal-confirm {
+    font-family: "Barlow", sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    color: hsl(216, 17%, 21%);
+    opacity: 0.8;
+    padding-top: 1rem;
+  }
+  .modal .modal-wrapper .modal-footer {
+    background-color: hsl(43, 78%, 98%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem 4rem 2rem;
+    border-radius: 0 0 6px 6px;
+  }
+  .modal .modal-wrapper .modal-footer .modal-price {
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    line-height: 40px;
+  }
+  .modal .modal-wrapper .modal-footer .button-checkout {
+    font-family: "Fraunces", serif;
+    font-size: 1.25rem;
+    line-height: 25px;
+    background-color: hsl(179, 81%, 29%);
+    color: hsl(43, 78%, 98%);
+    border: none;
+    padding: 1.25rem 2.25rem;
+    border-radius: 6px;
+    margin-top: 4rem;
+    cursor: pointer;
+    margin: 0;
+    padding: 1rem 1rem;
+  }
+  .modal .modal-wrapper .modal-footer .button-checkout:hover {
+    background-color: hsl(179, 55%, 61%);
+    transition: 0.2s;
+  }
+}
+.plan-page .modal-hidden {
+  display: none;
+}/*# sourceMappingURL=main.css.map */

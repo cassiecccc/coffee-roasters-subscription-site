@@ -1,0 +1,336 @@
+//variables
+
+@import "variables/colors";
+@import "variables/fonts";
+
+//layout
+@import "layout/navigation";
+@import "layout/footer";
+@import "media/footer/footer-md";
+@import "media/footer/footer-sm";
+
+//pages
+@import "pages/home";
+@import "pages/about";
+@import "pages/plan";
+
+@import "media/home/home-lg";
+@import "media/home/home-md";
+@import "media/home/home-sm";
+@import "media/home/home-xs";
+
+@import "media/about/about-lg";
+@import "media/about/about-md";
+@import "media/about/about-sm";
+@import "media/about/about-xs";
+
+@import "media/plan/plan-lg";
+@import "media/plan/plan-md";
+@import "media/plan/plan-sm";
+@import "media/plan/plan-xs";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 90rem;
+  min-height: 100vh;
+  margin: auto;
+  background-color: $background-color;
+
+  //modal
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: hsla(0, 0, 0, 0.5);
+  z-index: 999;
+
+  .modal-wrapper {
+    width: 35rem;
+    margin-top: 120px;
+    opacity: 1;
+
+    .modal-title {
+      @include HeaderFontTwo;
+      color: $background-color;
+      background-color: $secondary-color;
+      padding: 2.75rem 3.25rem;
+      border-radius: 6px 6px 0 0;
+    }
+
+    .modal-body {
+      background-color: $background-color;
+      padding: 2.5rem 3.25rem;
+
+      .modal-body-summary {
+        @include HeaderFontFour;
+        color: #83888f;
+        padding-top: 1rem;
+        line-height: 2.5rem;
+      }
+
+      .modal-selection {
+        color: $primary-color;
+      }
+
+      .modal-confirm {
+        @include BodyFont;
+        color: $secondary-color;
+        opacity: 0.8;
+        padding-top: 1rem;
+      }
+    }
+
+    .modal-footer {
+      background-color: $background-color;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.5rem 3.25rem 4rem 3.25rem;
+      border-radius: 0 0 6px 6px;
+
+      .modal-price {
+        @include HeaderFontThree;
+      }
+
+      .button-checkout {
+        @include MainButtonDefault;
+        margin: 0;
+        padding: 1rem 4rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(0, 0, 0, 0.5);
+    z-index: 999;
+
+    .modal-wrapper {
+      width: 32rem;
+      margin-top: 120px;
+      opacity: 1;
+
+      .modal-title {
+        @include HeaderFontTwo;
+        color: $background-color;
+        background-color: $secondary-color;
+        padding: 2.75rem 3.25rem;
+        border-radius: 6px 6px 0 0;
+      }
+
+      .modal-body {
+        background-color: $background-color;
+        padding: 2.5rem 3.25rem;
+
+        .modal-body-summary {
+          @include HeaderFontFour;
+          color: #83888f;
+          padding-top: 1rem;
+          line-height: 2.5rem;
+        }
+
+        .modal-selection {
+          color: $primary-color;
+        }
+
+        .modal-confirm {
+          @include BodyFont;
+          color: $secondary-color;
+          opacity: 0.8;
+          padding-top: 1rem;
+        }
+      }
+
+      .modal-footer {
+        background-color: $background-color;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.5rem 3.25rem 4rem 3.25rem;
+        border-radius: 0 0 6px 6px;
+
+        .modal-price {
+          @include HeaderFontThree;
+        }
+
+        .button-checkout {
+          @include MainButtonDefault;
+          margin: 0;
+          padding: 1rem 3rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(0, 0, 0, 0.5);
+    z-index: 999;
+
+    .modal-wrapper {
+      width: 25rem;
+      margin-top: 120px;
+      opacity: 1;
+
+      .modal-title {
+        @include HeaderFontTwo;
+        font-size: 1.75rem;
+        color: $background-color;
+        background-color: $secondary-color;
+        padding: 1.5rem 2rem;
+        border-radius: 6px 6px 0 0;
+      }
+
+      .modal-body {
+        background-color: $background-color;
+        padding: 1.5rem 2rem;
+        padding: 2.5rem 2rem;
+
+        .modal-body-summary {
+          @include HeaderFontFour;
+          color: #83888f;
+          padding-top: 1rem;
+          line-height: 2.5rem;
+        }
+
+        .modal-selection {
+          color: $primary-color;
+        }
+
+        .modal-confirm {
+          @include BodyFont;
+          color: $secondary-color;
+          opacity: 0.8;
+          padding-top: 1rem;
+        }
+      }
+
+      .modal-footer {
+        background-color: $background-color;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.5rem 3.25rem 4rem 3.25rem;
+        border-radius: 0 0 6px 6px;
+
+        .modal-price {
+          @include HeaderFontThree;
+        }
+
+        .button-checkout {
+          @include MainButtonDefault;
+          margin: 0;
+          padding: 1rem 2rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(0, 0, 0, 0.5);
+    z-index: 999;
+
+    .modal-wrapper {
+      width: 20.4rem;
+      margin-top: 120px;
+      opacity: 1;
+
+      .modal-title {
+        @include HeaderFontTwo;
+        font-size: 1.75rem;
+        color: $background-color;
+        background-color: $secondary-color;
+        padding: 1.5rem 2rem;
+        border-radius: 6px 6px 0 0;
+      }
+
+      .modal-body {
+        background-color: $background-color;
+        padding: 1.5rem 1.5rem;
+
+        .modal-body-summary {
+          @include HeaderFontFour;
+          color: #83888f;
+          padding-top: 1rem;
+          line-height: 2.5rem;
+        }
+
+        .modal-selection {
+          color: $primary-color;
+        }
+
+        .modal-confirm {
+          @include BodyFont;
+          color: $secondary-color;
+          opacity: 0.8;
+          padding-top: 1rem;
+        }
+      }
+
+      .modal-footer {
+        background-color: $background-color;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.5rem 2rem 4rem 2rem;
+        border-radius: 0 0 6px 6px;
+
+        .modal-price {
+          @include HeaderFontThree;
+        }
+
+        .button-checkout {
+          @include MainButtonDefault;
+          margin: 0;
+          padding: 1rem 1rem;
+        }
+      }
+    }
+  }
+}
+//modal
+.plan-page {
+  .modal-hidden {
+    display: none;
+  }
+}

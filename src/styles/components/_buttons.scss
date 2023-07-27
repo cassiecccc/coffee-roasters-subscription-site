@@ -1,0 +1,24 @@
+@mixin MainButtonDefault() {
+  @include ButtonFont;
+  background-color: $primary-color;
+  color: $background-color;
+  border: none;
+  padding: 1.25rem 2.25rem;
+  border-radius: 6px;
+  margin-top: 4rem;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $button-hover;
+    transition: 0.2s;
+  }
+}
+
+@mixin ButtonSummaryDisabled() {
+  @include ButtonFont;
+  background-color: $button-disabled;
+  color: $background-color;
+  border: none;
+  padding: 1.25rem 2.25rem;
+  border-radius: 6px;
+}

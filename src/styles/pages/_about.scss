@@ -1,0 +1,138 @@
+//about banner
+
+.about-banner {
+  background: url("src/assets/about/desktop/image-hero-whitecup.jpg");
+  max-width: 90rem;
+  margin: 0 5rem;
+  height: 450px;
+  border-radius: 6px;
+
+  .about-banner-wrapper {
+    padding-top: 8rem;
+    padding-left: 5rem;
+    max-width: 32rem;
+
+    .about-banner-title {
+      @include HeaderFontThree;
+      color: $background-color;
+    }
+
+    .about-banner-body {
+      @include BodyFont;
+      color: $background-color;
+      margin-top: 2rem;
+      opacity: 0.8;
+    }
+  }
+}
+
+//about our commitment
+.about-commit {
+  padding-top: 10rem;
+  max-width: 90rem;
+  margin: 0 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  gap: 2rem;
+
+  .about-commit-left {
+    border-radius: 6px;
+    background: url("src/assets/about/desktop/image-commitment.jpg");
+    background-size: cover;
+    width: 445px;
+    height: 520px;
+  }
+
+  .about-commit-right {
+    max-width: 33.7rem;
+    .about-commit-title {
+      @include HeaderFontThree;
+      color: $secondary-color;
+    }
+
+    .about-commit-body {
+      @include BodyFont;
+      color: $secondary-font-color;
+      margin-top: 2rem;
+    }
+  }
+}
+
+//about quality
+.about-quality {
+  max-width: 90rem;
+  height: 29.6rem;
+  margin: 0 5rem;
+  margin-top: 15rem;
+  background: url("src/assets/about/desktop/bg-quality.png");
+  background-repeat: no-repeat;
+
+  .about-quality-wrapper {
+    display: grid;
+    grid-template-columns: 1.07fr 1fr;
+    gap: 5rem;
+    padding: 0 5rem;
+    align-items: center;
+    justify-items: center;
+
+    .about-quality-left {
+      .about-quality-title {
+        @include HeaderFontTwo;
+        color: $background-color;
+      }
+
+      .about-quality-body {
+        @include BodyFont;
+        color: $background-color;
+        padding-top: 2rem;
+      }
+    }
+
+    .about-quality-right {
+      margin-top: -5rem;
+      border-radius: 6px;
+      background: url("src/assets/about/desktop/image-quality.jpg");
+      background-size: cover;
+      width: 27.81rem;
+      height: 29.625rem;
+    }
+  }
+}
+
+//about headquarters
+.about-hq {
+  padding-top: 10rem;
+  padding-bottom: 15rem;
+  max-width: 90rem;
+  margin: 0 10rem;
+
+  .about-hq-title {
+    @include HeaderFontFour;
+    color: $secondary-font-color;
+    padding-bottom: 5rem;
+  }
+
+  .about-hq-card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8rem;
+    align-items: start;
+
+    .about-hq-card {
+      max-width: 17.81rem;
+      .about-hq-card-title {
+        @include HeaderFontThree;
+        color: $secondary-color;
+        padding-top: 2rem;
+      }
+
+      .about-hq-card-body {
+        @include BodyFont;
+        color: $secondary-color;
+        padding-top: 2rem;
+      }
+    }
+  }
+}

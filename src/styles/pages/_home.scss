@@ -1,0 +1,224 @@
+@import "../components/buttons";
+
+//home banner
+.home-banner {
+  max-width: 90rem;
+  height: 600px;
+  margin: 0 5rem;
+  border-radius: 6px;
+  // background-image: url("/assets/home/desktop/image-hero-coffeepress.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .home-banner-wrapper {
+    background: none;
+    padding-top: 7rem;
+    padding-left: 5rem;
+
+    .home-banner-title {
+      @include HeaderFontOne;
+
+      color: $background-color;
+      background: none;
+    }
+
+    .home-banner-body {
+      @include BodyFont;
+      width: 27.8rem;
+      background: none;
+      color: $background-color;
+      margin-top: 2rem;
+      opacity: 0.8;
+    }
+    .button-primary {
+      @include MainButtonDefault;
+    }
+  }
+}
+
+//home section one - our collection
+
+.home-sec-one {
+  max-width: 90rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 5rem;
+
+  .collection-title {
+    padding-top: 12rem;
+    text-align: center;
+
+    @include TitleFont;
+    background: -webkit-linear-gradient(
+      $secondary-font-color,
+      $background-color
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 0;
+  }
+
+  .home-collection {
+    background: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    align-content: center;
+    text-align: center;
+    margin-top: -3.3rem;
+    padding: 0 5rem;
+  }
+
+  .home-collection-card {
+    max-width: 16rem;
+    background: none;
+    z-index: 1;
+    padding-bottom: 12rem;
+
+    .home-collection-image {
+      background: none;
+      max-width: 15rem;
+      margin-left: 1.5rem;
+    }
+    .home-collection-title {
+      @include HeaderFontFour;
+      color: $secondary-color;
+      margin-top: 4rem;
+    }
+    .home-collection-body {
+      @include BodyFont;
+      color: $secondary-color;
+      margin-top: 1.5rem;
+    }
+  }
+}
+
+//home section two - why choose us?
+.home-sec-two {
+  max-width: 90em;
+  margin: auto;
+  margin: 0 5rem;
+
+  .home-why {
+    height: 36rem;
+    text-align: center;
+    padding-top: 7rem;
+    background-color: $secondary-color;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .home-why-title {
+      @include HeaderFontTwo;
+      color: $background-color;
+    }
+    .home-why-body {
+      @include BodyFont;
+      color: $background-color;
+      opacity: 0.7;
+      margin-top: 2rem;
+      max-width: 33.75rem;
+    }
+  }
+  .home-why-card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    justify-items: center;
+    margin: -14rem 5rem 0 5rem;
+
+    .home-why-card {
+      text-align: center;
+      background-color: $primary-color;
+      border-radius: 6px;
+      padding: 4rem 2.5rem;
+      max-width: 21rem;
+      max-height: 26rem;
+      #truck-image {
+        margin-top: 1.3rem;
+      }
+      .home-why-card-image {
+        width: 25%;
+        height: auto;
+      }
+    }
+
+    .home-why-card-title {
+      @include HeaderFontFour;
+      color: $background-color;
+      padding-top: 3rem;
+    }
+
+    .home-why-card-body {
+      @include BodyFont;
+      color: $background-color;
+      padding-top: 2rem;
+    }
+  }
+}
+
+//home sec three - how it works
+.home-sec-three {
+  padding-top: 13rem;
+  max-width: 65rem;
+  margin: auto;
+  .home-how-title {
+    @include HeaderFontFour;
+    color: $secondary-font-color;
+    padding-bottom: 6rem;
+  }
+
+  .home-how-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: top;
+
+    #third-line {
+      border: none;
+    }
+
+    .home-how-card {
+      max-width: 24rem;
+      border-top: 2px solid $accent-color;
+      padding-top: 5rem;
+      position: relative;
+
+      &::before {
+        content: "";
+        top: -1rem;
+        height: 25px;
+        width: 25px;
+        position: absolute;
+        border-radius: 50%;
+        border: 2px solid $primary-color;
+        background-color: $background-color;
+      }
+
+      .home-how-number {
+        @include HeaderFontOne;
+        color: $accent-color;
+      }
+
+      .home-how-step {
+        @include HeaderFontThree;
+        color: $secondary-color;
+        padding-top: 2.5rem;
+        max-width: 16rem;
+      }
+      .home-how-description {
+        @include BodyFont;
+        color: $secondary-color;
+        padding-top: 3rem;
+        max-width: 17.81rem;
+      }
+    }
+  }
+  .button-home-how {
+    @include MainButtonDefault;
+    margin-bottom: 15rem;
+  }
+}
+
+//home-lg

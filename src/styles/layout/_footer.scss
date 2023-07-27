@@ -1,0 +1,55 @@
+//footer
+footer {
+  width: 100%;
+  background-color: $secondary-color;
+
+  .footer-wrapper {
+    max-width: 80rem;
+    margin: auto;
+    padding: 2.5rem 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    li {
+      margin-left: 2rem;
+      list-style: none;
+      cursor: pointer;
+      @include NavFont;
+
+      a {
+        text-decoration: none;
+        color: $secondary-font-color;
+        font-weight: 700;
+        letter-spacing: 0.92px;
+
+        &:hover {
+          color: $background-color;
+          transition: 0.1s;
+        }
+      }
+    }
+  }
+
+  .footer-left {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 0.2;
+  }
+
+  .social-menu {
+    svg:hover {
+      path {
+        fill: $accent-color;
+        transition: 0.1s;
+      }
+    }
+  }
+}

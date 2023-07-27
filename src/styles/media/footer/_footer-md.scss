@@ -1,0 +1,60 @@
+@media screen and (max-width: 768px) {
+  footer {
+    max-width: 100vw;
+    height: 16.875rem;
+    background-color: $secondary-color;
+
+    .footer-wrapper {
+      max-width: 80rem;
+      height: 16.875rem;
+
+      margin: auto;
+      padding: 4rem 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    ul {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-top: 2rem;
+
+      li {
+        margin-left: 2rem;
+        list-style: none;
+        cursor: pointer;
+        @include NavFont;
+
+        a {
+          text-decoration: none;
+          color: $secondary-font-color;
+          font-weight: 700;
+          letter-spacing: 0.92px;
+
+          &:hover {
+            color: $background-color;
+            transition: 0.1s;
+          }
+        }
+      }
+    }
+
+    .footer-left {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .social-menu {
+      margin-top: 4rem;
+      svg:hover {
+        path {
+          fill: $accent-color;
+          transition: 0.1s;
+        }
+      }
+    }
+  }
+}

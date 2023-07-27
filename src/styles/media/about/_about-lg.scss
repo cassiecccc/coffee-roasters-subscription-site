@@ -1,0 +1,138 @@
+@media screen and (max-width: 993px) {
+  //about banner
+
+  .about-banner {
+    background: url("src/assets/about/tablet/image-hero-whitecup.jpg");
+    max-width: 55rem;
+    margin: 0 5rem;
+    height: 450px;
+    border-radius: 6px;
+    background-size: cover;
+
+    .about-banner-wrapper {
+      padding-top: 8rem;
+      padding-left: 5rem;
+
+      .about-banner-title {
+        @include HeaderFontThree;
+        color: $background-color;
+      }
+
+      .about-banner-body {
+        @include BodyFont;
+        color: $background-color;
+        margin-top: 2rem;
+      }
+    }
+  }
+
+  //about our commitment
+  .about-commit {
+    padding-top: 10rem;
+    max-width: 55rem;
+    margin: 0 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    gap: 2rem;
+
+    .about-commit-left {
+      border-radius: 6px;
+      background: url("src/assets/about/tablet/image-commitment.jpg");
+      width: 281px;
+      height: 470px;
+    }
+
+    .about-commit-right {
+      max-width: 33.7rem;
+      .about-commit-title {
+        @include HeaderFontThree;
+        color: $secondary-color;
+      }
+
+      .about-commit-body {
+        @include BodyFont;
+        font-size: 15px;
+        color: $secondary-font-color;
+        margin-top: 2rem;
+      }
+    }
+  }
+
+  //about quality
+  .about-quality {
+    max-width: 55rem;
+    height: 29.6rem;
+    margin: 0 5rem;
+    margin-top: 20rem;
+    background: url("src/assets/about/tablet/bg-quality.png");
+    background-size: cover;
+
+    .about-quality-wrapper {
+      display: flex;
+      flex-direction: column-reverse;
+      padding: 0 5rem;
+      align-items: center;
+      justify-items: center;
+
+      .about-quality-left {
+        text-align: center;
+        .about-quality-title {
+          @include HeaderFontThree;
+          color: $background-color;
+        }
+
+        .about-quality-body {
+          @include BodyFont;
+          font-size: 15px;
+          color: $background-color;
+          opacity: 0.8;
+          padding-top: 2rem;
+        }
+      }
+
+      .about-quality-right {
+        background: url("src/assets/about/tablet/image-quality.jpg");
+        margin-top: -10rem;
+        width: 573px;
+        height: 320px;
+      }
+    }
+  }
+
+  //about headquarters
+  .about-hq {
+    padding-top: 10rem;
+    padding-bottom: 15rem;
+    max-width: 55rem;
+    margin: 0 5rem;
+
+    .about-hq-title {
+      @include HeaderFontFour;
+      color: $secondary-font-color;
+      padding-bottom: 5rem;
+    }
+
+    .about-hq-card-wrapper {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8rem;
+
+      .about-hq-card {
+        max-width: 120rem;
+        .about-hq-card-title {
+          @include HeaderFontThree;
+          color: $secondary-color;
+          padding-top: 2rem;
+        }
+
+        .about-hq-card-body {
+          @include BodyFont;
+          color: $secondary-color;
+          padding-top: 2rem;
+        }
+      }
+    }
+  }
+}

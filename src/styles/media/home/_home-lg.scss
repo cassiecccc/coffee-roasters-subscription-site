@@ -1,0 +1,209 @@
+@media screen and (max-width: 992px) {
+  .home-banner {
+    max-width: 55rem;
+    height: 600px;
+    margin: 0 5rem;
+    border-radius: 6px;
+    background-image: url("src/assets/home/tablet/image-hero-coffeepress.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .home-banner-wrapper {
+      background: none;
+      padding-top: 6rem;
+      padding-left: 4rem;
+
+      .home-banner-title {
+        @include HeaderFontOne;
+        font-size: 4rem;
+        color: $background-color;
+        background: none;
+      }
+
+      .home-banner-body {
+        @include BodyFont;
+        width: 26rem;
+        font-size: 15.5px;
+        background: none;
+        color: $background-color;
+        margin-top: 2rem;
+      }
+      .button-primary {
+        @include MainButtonDefault;
+      }
+    }
+  }
+  .home-sec-one {
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin: 0 5rem;
+
+    .collection-title {
+      padding-top: 10rem;
+      text-align: center;
+      @include TitleFont;
+      font-size: 8rem;
+      background: -webkit-linear-gradient(
+        $secondary-font-color,
+        $background-color
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      z-index: 0;
+    }
+
+    .home-collection {
+      background: none;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 2rem;
+      align-content: center;
+      text-align: center;
+      margin-top: -3.3rem;
+    }
+    .home-collection-card {
+      max-width: 14rem;
+      background: none;
+      z-index: 1;
+      padding-bottom: 12rem;
+
+      .home-collection-image {
+        background: none;
+        max-width: 10rem;
+      }
+      .home-collection-title {
+        @include HeaderFontFour;
+        font-size: 1.3rem;
+        color: $secondary-color;
+        margin-top: 3rem;
+      }
+      .home-collection-body {
+        @include BodyFont;
+        font-size: 0.9rem;
+        color: $secondary-color;
+        margin-top: 1.5rem;
+      }
+    }
+  }
+
+  .home-sec-two {
+    max-width: 80rem;
+    margin: auto;
+
+    .home-why {
+      height: 36rem;
+      text-align: center;
+      padding-top: 7rem;
+      background-color: $secondary-color;
+      border-radius: 6px;
+
+      .home-why-title {
+        @include HeaderFontTwo;
+        color: $background-color;
+      }
+      .home-why-body {
+        @include BodyFont;
+        color: $background-color;
+        opacity: 0.7;
+        margin-top: 2rem;
+      }
+    }
+    .home-why-card-wrapper {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+      justify-items: center;
+      margin: -14rem 5rem 0 5rem;
+
+      .home-why-card {
+        text-align: center;
+        background-color: $primary-color;
+        border-radius: 6px;
+        padding: 2.5rem 2rem;
+        max-width: 21rem;
+        max-height: 25rem;
+        #truck-image {
+          margin-top: 0.5rem;
+        }
+        .home-why-card-image {
+          width: 24%;
+          height: auto;
+        }
+      }
+
+      .home-why-card-title {
+        @include HeaderFontFour;
+        font-size: 1.2rem;
+        color: $background-color;
+        padding-top: 1.5rem;
+      }
+
+      .home-why-card-body {
+        @include BodyFont;
+        font-size: 0.85rem;
+        color: $background-color;
+        padding-top: 1rem;
+      }
+    }
+  }
+
+  .home-sec-three {
+    padding-top: 10rem;
+    max-width: 65rem;
+    margin: 0 5rem;
+    .home-how-title {
+      @include HeaderFontFour;
+      color: $secondary-font-color;
+    }
+
+    .home-how-wrapper {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      #third-line {
+        border: none;
+      }
+      .home-how-card {
+        max-width: 17.8rem;
+
+        &::before {
+          content: "";
+          top: -1rem;
+          height: 25px;
+          width: 25px;
+          position: absolute;
+          border-radius: 50%;
+          border: 2px solid $primary-color;
+          background-color: $background-color;
+        }
+
+        .home-how-number {
+          @include HeaderFontOne;
+          font-size: 3.75rem;
+          color: $accent-color;
+        }
+
+        .home-how-step {
+          @include HeaderFontThree;
+          font-size: 1.75rem;
+          color: $secondary-color;
+          padding-top: 2.5rem;
+          max-width: 14rem;
+        }
+        .home-how-description {
+          @include BodyFont;
+          font-size: 0.85rem;
+          color: $secondary-color;
+          padding-top: 3rem;
+          max-width: 15rem;
+        }
+      }
+    }
+    .button-home-how {
+      @include MainButtonDefault;
+      margin-bottom: 15rem;
+    }
+  }
+}
